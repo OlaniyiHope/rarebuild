@@ -1,0 +1,5 @@
+@media only screen and (max-width: 600px) {
+  .eb-testimonial-style-4 {
+    display: block !important; /* Ensure it displays on mobile */
+  }
+}

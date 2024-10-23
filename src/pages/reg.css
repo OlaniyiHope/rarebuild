@@ -1,0 +1,43 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.learn-press-nav-tabs {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.learn-press-nav-tabs li {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.learn-press-nav-tabs li.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.course-tab-panels {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

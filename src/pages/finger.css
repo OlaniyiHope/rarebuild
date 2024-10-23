@@ -1,0 +1,6 @@
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000; /* Change to your preferred color */
+  width: 30px;
+  height: 30px;
+}

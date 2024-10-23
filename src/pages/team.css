@@ -1,0 +1,27 @@
+/* Add these styles to ensure proper image behavior */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+.swiper-pagination {
+  margin-top: 100px;
+}
+
+.swiper-pagination-bullet {
+  margin-top: 100px;
+  background: #000; /* Pagination dot color */
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff5e00; /* Active dot color */
+}
