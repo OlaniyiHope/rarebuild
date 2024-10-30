@@ -11,6 +11,10 @@ import "./style.css";
 import Test from "./Test";
 import Header from "./Header";
 import Footers from "./Footers";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // use icons for buttons
+import Builder from "./Builder";
+import Swipes from "./Swipes";
+
 const About2 = () => {
   return (
     <>
@@ -300,12 +304,12 @@ const About2 = () => {
                                   <span class="pre-heading">
                                     OUR MINISTRIES
                                   </span>
-                                  <h3 class="heading">
+                                  <h6 class="heading">
                                     Our Multi
                                     <mark> Dimesional </mark> engagement
                                     includes <br />
                                     the following
-                                  </h3>
+                                  </h6>
                                   <div class="title-shape">
                                     <i class="icon-19"></i>
                                   </div>
@@ -474,7 +478,9 @@ const About2 = () => {
                           </div>
                         </section>
 
-                        <section
+                        <Swipes />
+
+                        {/*} <section
                           class="elementor-section elementor-top-section elementor-element elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                           data-element_type="section"
                           data-settings='{"background_background":"classic"}'
@@ -721,7 +727,7 @@ const About2 = () => {
                               </div>
                             </section>
                           </div>
-                        </section>
+                        </section>*/}
                       </div>
                     </div>
                   </article>
