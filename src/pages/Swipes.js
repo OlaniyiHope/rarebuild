@@ -18,13 +18,26 @@ function Swipes() {
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={20}
-          slidesPerView={2} // Adjust based on screen size if needed
           navigation={{
             nextEl: ".custom-next",
             prevEl: ".custom-prev",
           }}
           loop
           autoplay={{ delay: 3000, disableOnInteraction: false }}
+          breakpoints={{
+            // when window width is >= 640px
+            640: {
+              slidesPerView: 1, // Show 1 slide on mobile
+            },
+            // when window width is >= 768px
+            768: {
+              slidesPerView: 2, // Show 2 slides on tablet and above
+            },
+            // when window width is >= 1024px
+            1024: {
+              slidesPerView: 2, // Show 2 slides on larger screens
+            },
+          }}
         >
           <div className="custom-prev">
             <FaChevronLeft />
@@ -49,7 +62,17 @@ function Swipes() {
                   </a>
                 </div>
                 <div className="content">
-                  <span className="course-level">Finger Print Commission</span>
+                  <span
+                    style={{
+                      backgroundColor: "none",
+                      color: "black",
+                      fontWeight: "800",
+                      fontSize: "20px",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    Finger Print Commission
+                  </span>
                   <h6 className="title">
                     <a href="https://demo.edublink.co/courses/the-complete-guide-to-build-restful-api-application/">
                       Restoring the body of Christ to the desire and purpose of
@@ -76,7 +99,17 @@ function Swipes() {
                   </a>
                 </div>
                 <div className="content">
-                  <span className="course-level">The Shade Network</span>
+                  <span
+                    style={{
+                      backgroundColor: "none",
+                      color: "black",
+                      fontWeight: "800",
+                      fontSize: "20px",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    The Shade Network
+                  </span>
                   <h6 className="title">
                     <a href="https://demo.edublink.co/courses/the-complete-guide-to-build-restful-api-application/">
                       Restoring the body of Christ to the desire and purpose of
@@ -103,7 +136,17 @@ function Swipes() {
                   </a>
                 </div>
                 <div className="content">
-                  <span className="course-level">Lebana Academy</span>
+                  <span
+                    style={{
+                      backgroundColor: "none",
+                      color: "black",
+                      fontWeight: "800",
+                      fontSize: "20px",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    Lebana Academy
+                  </span>
                   <h6 className="title">
                     <a href="https://demo.edublink.co/courses/the-complete-guide-to-build-restful-api-application/">
                       Restoring the body of Christ to the desire and purpose of
@@ -130,7 +173,17 @@ function Swipes() {
                   </a>
                 </div>
                 <div className="content">
-                  <span className="course-level">Finger Print Commission</span>
+                  <span
+                    style={{
+                      backgroundColor: "none",
+                      color: "black",
+                      fontWeight: "800",
+                      fontSize: "20px",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    Finger Print Commission
+                  </span>
                   <h6 className="title">
                     <a href="https://demo.edublink.co/courses/the-complete-guide-to-build-restful-api-application/">
                       Restoring the body of Christ to the desire and purpose of
