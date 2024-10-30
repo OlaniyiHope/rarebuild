@@ -15,6 +15,7 @@ import Header from "./Header";
 import Team from "./Team";
 import Builder from "./Builder";
 import Carousel from "./Carousel";
+import Footers from "./Footers";
 
 const Cbt = () => {
   return (
@@ -4604,7 +4605,7 @@ const Cbt = () => {
               </div>
             </div>
           </div>
-          <Footer />
+          <Footers />
         </div>
       </body>
     </>
