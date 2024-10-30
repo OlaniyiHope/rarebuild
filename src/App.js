@@ -23,6 +23,7 @@ import Finger from "./pages/Finger";
 import Lebana from "./pages/Lebana";
 import Shade from "./pages/Shade";
 import Register from "./pages/Register";
+import About2 from "./pages/About2";
 
 const App = () => {
   return (
@@ -31,7 +32,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cbt" element={<Cbt />} />
-          <Route path="/about-us" element={<About />} />
+          <Route path="/about-us" element={<About2 />} />
           <Route path="/resources" element={<Download />} />
           <Route path="/resources-details" element={<BookDetails />} />
           <Route path="/contact" element={<Contact />} />

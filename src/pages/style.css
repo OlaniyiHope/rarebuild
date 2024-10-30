@@ -116,3 +116,21 @@
   width: 78px;
   height: 78px;
 }
+
+.ead {
+  font-size: 20px !important;
+  width: 70% !important;
+  line-height: 2 !important;
+  text-align: center !important;
+  margin: auto !important;
+}
+
+@media (max-width: 600px) {
+  .ead {
+    font-size: 15px !important;
+    width: 100% !important;
+    line-height: 2 !important;
+    text-align: center !important;
+    margin: auto !important;
+  }
+}
