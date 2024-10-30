@@ -24,6 +24,7 @@ import Lebana from "./pages/Lebana";
 import Shade from "./pages/Shade";
 import Register from "./pages/Register";
 import About2 from "./pages/About2";
+import People from "./pages/People";
 
 const App = () => {
   return (
@@ -45,6 +46,7 @@ const App = () => {
           <Route path="/single-blog" element={<SingleBlog />} />
           <Route path="/career" element={<Career />} />
           <Route path="/apply" element={<Register />} />
+          <Route path="/people" element={<People />} />
 
           <Route path="/" element={<Login />} />
         </Routes>
