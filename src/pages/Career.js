@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import "./style.css";
 import Test from "./Test";
 import Header from "./Header";
+import Footers from "./Footers";
 const Career = () => {
   return (
     <>
@@ -274,7 +275,7 @@ const Career = () => {
                 </div>
               </div>
             </div>
-            <Footer />
+            <Footers />
           </div>
         </div>
       </body>

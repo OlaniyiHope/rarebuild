@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import "./style.css";
 import Test from "./Test";
 import Header from "./Header";
+import Footers from "./Footers";
 const Contact = () => {
   return (
     <>
@@ -458,7 +459,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <Footer />
+            <Footers />
           </div>
         </div>
       </body>

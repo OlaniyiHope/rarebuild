@@ -20,6 +20,7 @@ import s12 from "./image/12.jpg";
 
 import "./style.css";
 import Footer from "./Footer";
+import Footers from "./Footers";
 
 const BookDetails = () => {
   return (
@@ -522,7 +523,7 @@ const BookDetails = () => {
           </div>
         </div>
 
-        <Footer />
+        <Footers />
       </body>
     </>
   );

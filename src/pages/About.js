@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import "./style.css";
 import Test from "./Test";
 import Header from "./Header";
+import Footers from "./Footers";
 const About = () => {
   return (
     <>
@@ -1595,7 +1596,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <Footer />
+          <Footers />
         </div>
       </body>
     </>

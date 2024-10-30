@@ -13,6 +13,7 @@ import "./style.css";
 import Test from "./Test";
 import Header from "./Header";
 import About2 from "./About2";
+import Footers from "./Footers";
 const Lebana = () => {
   return (
     <>
@@ -822,7 +823,7 @@ const Lebana = () => {
               </div>
             </div>
           </div>
-          <Footer />
+          <Footers />
         </div>
       </body>
     </>

@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import "./style.css";
 import Test from "./Test";
 import Header from "./Header";
+import Footers from "./Footers";
 const CourseDetails = () => {
   return (
     <>
@@ -1035,7 +1036,7 @@ const CourseDetails = () => {
           </div>
         </div>
 
-        <Footer />
+        <Footers />
       </body>
     </>
   );

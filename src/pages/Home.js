@@ -189,6 +189,9 @@ const Home = () => {
                                                 <a
                                                   class="edublink-button-item edublink-button-style-default edublink-button-size-custom edublink-button-icon-position-after default-style"
                                                   href="/resources"
+                                                  style={{
+                                                    borderRadius: "100px",
+                                                  }}
                                                 >
                                                   Read full article
                                                   <i class="icon-4"></i>

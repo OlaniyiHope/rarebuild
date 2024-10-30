@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import "./style.css";
 import Test from "./Test";
 import Header from "./Header";
+import Footers from "./Footers";
 const Register = () => {
   const [formData, setFormData] = useState({
     generalInfo: "",
@@ -7399,7 +7400,7 @@ const Register = () => {
                 </div>
               </div>
             </div>
-            <Footer />
+            <Footers />
           </div>
         </div>
       </body>

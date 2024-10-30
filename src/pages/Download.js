@@ -20,6 +20,7 @@ import s12 from "./image/12.jpg";
 
 import "./style.css";
 import Footer from "./Footer";
+import Footers from "./Footers";
 
 const Download = () => {
   return (
@@ -1160,7 +1161,7 @@ const Download = () => {
             </div>
           </div>
         </div>
-        <Footer />
+        <Footers />
       </body>
     </>
   );

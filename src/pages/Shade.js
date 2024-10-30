@@ -14,6 +14,7 @@ import Test from "./Test";
 import Header from "./Header";
 import About2 from "./About2";
 import About3 from "./About3";
+import Footers from "./Footers";
 const Shade = () => {
   return (
     <>
@@ -841,7 +842,7 @@ const Shade = () => {
               </div>
             </div>
           </div>
-          <Footer />
+          <Footers />
         </div>
       </body>
     </>

@@ -16,6 +16,7 @@ import About2 from "./About2";
 import "./finger.css";
 import About4 from "./About4";
 import FingerProgram from "./FingerProgram";
+import Footers from "./Footers";
 const Finger = () => {
   return (
     <>
@@ -237,7 +238,7 @@ const Finger = () => {
               </div>
             </div>
           </div>
-          <Footer />
+          <Footers />
         </div>
       </body>
     </>

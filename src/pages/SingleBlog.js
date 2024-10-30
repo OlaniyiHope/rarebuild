@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import "./style.css";
 import Test from "./Test";
 import Header from "./Header";
+import Footers from "./Footers";
 const SingleBlog = () => {
   return (
     <>
@@ -782,7 +783,7 @@ const SingleBlog = () => {
             </div>
           </div>
         </div>
-        <Footer />
+        <Footers />
       </body>
     </>
   );
