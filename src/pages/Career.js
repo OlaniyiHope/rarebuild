@@ -11,12 +11,13 @@ import "./style.css";
 import Test from "./Test";
 import Header from "./Header";
 import Footers from "./Footers";
+import DataTable from "./DataTable";
 const Career = () => {
   return (
     <>
       <body class="page-template-default page page-id-17213 wp-custom-logo wp-embed-responsive theme-edublink woocommerce-no-js edublink-page-content edublink-page-breadcrumb-enable edublink-page-boxed edublink-page-sidebar-disable theme-name-edublink-child group-blog edublink-sticky-header-enable woocommerce woocommerce-active elementor-default elementor-kit-18 elementor-page elementor-page-17213">
         <div id="page" class="site">
-          <div class="edublink-page-title-area edublink-default-breadcrumb ">
+          <div class="edublink-page-title-area edublink-default-breadcrumb">
             <div class="edublink-container">
               <div class="edublink-page-title">
                 <h1 class="entry-title">Job Opportunities</h1>
@@ -35,11 +36,7 @@ const Career = () => {
               </div>
             </div>
           </div>
-          <div
-            id="content"
-            class="site-content"
-            style={{ marginTop: "60px", marginBottom: "170px" }}
-          >
+          <div id="content" class="site-content" style={{ marginTop: "60px" }}>
             <div class="site-content-inner edublink-page-container edublink-container">
               <div class="edublink-main-content-inner edublink-row">
                 <div id="primary" class="content-area edublink-col-lg-12">
@@ -82,10 +79,7 @@ const Career = () => {
                                           <i class="icon-19"></i>
                                         </div>
                                         <div class="sub-heading">
-                                          These are some of the volunteering
-                                          contract job we offer at RareBuild, if
-                                          you are looking for such exciting
-                                          opportunity, pleae check our openings
+                                          We are an equal and
                                         </div>
                                       </div>{" "}
                                     </div>
@@ -268,6 +262,8 @@ const Career = () => {
                               </div>
                             </div>
                           </section>
+
+                          <DataTable />
                         </div>
                       </div>
                     </article>

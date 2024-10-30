@@ -266,7 +266,7 @@ const Shade = () => {
                                           style={{ color: "black" }}
                                         >
                                           Our Multi Dimensional Engagement
-                                          includes the following:
+                                          includes the following
                                         </p>
                                         <div
                                           class="title-shape"
