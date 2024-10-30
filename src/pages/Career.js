@@ -12,6 +12,7 @@ import Test from "./Test";
 import Header from "./Header";
 import Footers from "./Footers";
 import DataTable from "./DataTable";
+import Swipes from "./Swipes";
 const Career = () => {
   return (
     <>
@@ -51,7 +52,57 @@ const Career = () => {
                           data-elementor-id="17213"
                           class="elementor elementor-17213"
                         >
+                          <Swipes />
+
                           <section
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-21ebc1c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="21ebc1c"
+                            data-element_type="section"
+                          >
+                            <div class="elementor-container elementor-column-gap-extended">
+                              <div
+                                class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-521e0af"
+                                data-id="521e0af"
+                                data-element_type="column"
+                              >
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                  <div
+                                    class="elementor-element elementor-element-9835d56 edublink-br-m-none  elementor-widget elementor-widget-edublink-heading"
+                                    data-id="9835d56"
+                                    data-element_type="widget"
+                                    data-settings='{"_animation":"edublink--slide-up","_animation_delay":150}'
+                                    data-widget_type="edublink-heading.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      <div class="edublink-section-heading">
+                                        <h6 class="heading ead">
+                                          We aim to provide a responsive,
+                                          imaginative and professional
+                                          architecture service{" "}
+                                          <mark>
+                                            tailored to the aspiration of each
+                                            of our client and to deliver quality
+                                            results regardless of commission,
+                                            size or type.
+                                          </mark>
+                                          <br></br> We seek to develop a
+                                          sustainable and cost efficient design,{" "}
+                                          <mark>
+                                            which speaks the language of global
+                                            architecture and fulfils the
+                                            expectation of building users{" "}
+                                          </mark>
+                                          by addressing their identity ,
+                                          physical and socialogical context
+                                        </h6>
+                                      </div>{" "}
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                          {/*}   <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-57db4c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="57db4c6"
                             data-element_type="section"
@@ -261,7 +312,7 @@ const Career = () => {
                                 </div>
                               </div>
                             </div>
-                          </section>
+                          </section>*/}
 
                           <DataTable />
                         </div>
