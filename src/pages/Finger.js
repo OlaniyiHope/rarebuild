@@ -17,6 +17,7 @@ import "./finger.css";
 import About4 from "./About4";
 import FingerProgram from "./FingerProgram";
 import Footers from "./Footers";
+import Swipes from "./Swipes";
 const Finger = () => {
   return (
     <>
@@ -228,7 +229,45 @@ const Finger = () => {
                             </section>
 
                             <About4 />
-                            <FingerProgram />
+                            <div class="elementor-container elementor-column-gap-extended">
+                              <div
+                                class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-019f81e"
+                                data-id="019f81e"
+                                data-element_type="column"
+                              >
+                                <div class="elementor-widget-wrap elementor-element-populated">
+                                  <div
+                                    class="elementor-element elementor-element-496e8b8  elementor-widget elementor-widget-edublink-heading"
+                                    data-id="496e8b8"
+                                    data-element_type="widget"
+                                    data-settings='{"_animation":"edublink--slide-up","_animation_delay":150}'
+                                    data-widget_type="edublink-heading.default"
+                                  >
+                                    <div class="elementor-widget-container">
+                                      <div class="edublink-section-heading">
+                                        <span class="pre-heading">
+                                          OUR PROGRAMS
+                                        </span>
+                                        <p
+                                          class="heading"
+                                          style={{ color: "black" }}
+                                        >
+                                          Our Multi Dimensional Engagement
+                                          includes the following:
+                                        </p>
+                                        <div
+                                          class="title-shape"
+                                          style={{ color: "black" }}
+                                        >
+                                          <i class="icon-19"></i>
+                                        </div>
+                                      </div>{" "}
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <Swipes />
                           </section>
                         </div>
                       </div>
