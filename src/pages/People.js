@@ -58,68 +58,157 @@ const People = () => {
                         class="elementor elementor-10265"
                       >
                         <PeopleSlide />
+
                         <section
-                          class="elementor-section elementor-top-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                          class="elementor-section elementor-top-section elementor-element elementor-element-57db4c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                          data-id="57db4c6"
                           data-element_type="section"
                         >
-                          <div class="elementor-widget-wrap elementor-element-populated">
+                          <div class="elementor-container elementor-column-gap-extended">
                             <div
-                              class="elementor-element elementor-element-9835d56 edublink-br-m-none  elementor-widget elementor-widget-edublink-heading"
-                              data-id="9835d56"
-                              data-element_type="widget"
-                              data-settings='{"_animation":"edublink--slide-up","_animation_delay":150}'
-                              data-widget_type="edublink-heading.default"
+                              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-67acdf4"
+                              data-id="67acdf4"
+                              data-element_type="column"
                             >
-                              <div class="elementor-widget-container">
-                                <div class="edublink-section-heading">
-                                  <h1
-                                    class="pre-heading"
-                                    style={{
-                                      fontSize: "22px",
-                                      fontWeight: "800",
-                                    }}
-                                  >
-                                    BOARD OF BUILDERS
-                                  </h1>
-
-                                  <div class="title-shape">
-                                    <i class="icon-19"></i>
+                              <div class="elementor-widget-wrap elementor-element-populated">
+                                <div
+                                  class="elementor-element elementor-element-bf2cfd1  elementor-widget elementor-widget-edublink-heading"
+                                  data-id="bf2cfd1"
+                                  data-element_type="widget"
+                                  data-settings='{"_animation":"edublink--slide-up","_animation_delay":150}'
+                                  data-widget_type="edublink-heading.default"
+                                >
+                                  <div class="elementor-widget-container">
+                                    <div class="edublink-section-heading">
+                                      <h3 class="heading">Board of Builders</h3>
+                                      <div class="title-shape">
+                                        <i class="icon-19"></i>
+                                      </div>
+                                      <div
+                                        class="sub-heading"
+                                        style={{
+                                          fontSize: "26px",
+                                          color: "black",
+                                          fontWeight: "700",
+                                        }}
+                                      >
+                                        Finger Print Commission
+                                      </div>
+                                    </div>{" "}
                                   </div>
-                                </div>{" "}
-                              </div>
-
-                              <section
-                                class="zin elementor-section elementor-inner-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                                data-id="faace8e"
-                                data-element_type="section"
-                              >
-                                <div class="elementor-container elementor-column-gap-no">
-                                  <section>
-                                    <div>
-                                      <h6>FINGER PRINT COMMISSION</h6>
-
-                                      <ul>
-                                        <li>Pastor Adeniyi Adekunle</li>
-                                        <li>Dr Damola Adesina</li>
-                                        <li>Mr Samson Adeosun</li>
-                                        <li>Mr Samson Adeosun</li>
-                                        <li>Mr Samson Adeosun</li>
-                                        <li>Mr Samson Adeosun</li>
-                                      </ul>
-                                      <h6>LEBANA ACADEMY</h6>
-
-                                      <ul>
-                                        <li>Pastor Adeniyi Adekunle</li>
-                                        <li>Dr Damola Adesina</li>
-                                        <li>Mr Samson Adeosun</li>
-                                        <li>Mr Samson Adeosun</li>
-                                        <li>Mr Samson Adeosun</li>
-                                        <li>Mr Samson Adeosun</li>
-                                      </ul>
-                                    </div>
-                                  </section>
                                 </div>
-                              </section>
+                                <div
+                                  class="elementor-element elementor-element-ed255e6  elementor-widget elementor-widget-edublink-lp-course-category"
+                                  data-id="ed255e6"
+                                  data-element_type="widget"
+                                  data-settings='{"_animation_delay":150,"_animation":"edublink--slide-up"}'
+                                  data-widget_type="edublink-lp-course-category.default"
+                                >
+                                  <div class="elementor-widget-container">
+                                    <div class="eb-course-cat-wrapper">
+                                      <div class="eb-course-cat-container-grid eb-course-cat-grid edublink-row">
+                                        <div
+                                          class="edublink-col-lg-4 edublink-col-md-6 edublink-col-sm-6 edublink-course-single-cat edublink-course-cat-single-grid elementor-repeater-item-71e2b22"
+                                          data-sal=""
+                                        >
+                                          <div>
+                                            <div class="content">
+                                              <h5 class="title">
+                                                Pastor Adeniyi Adekunle
+                                              </h5>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="edublink-col-lg-4 edublink-col-md-6 edublink-col-sm-6 edublink-course-single-cat edublink-course-cat-single-grid elementor-repeater-item-21733b5"
+                                          data-sal=""
+                                        >
+                                          <div>
+                                            <div class="content">
+                                              <h5 class="title">
+                                                Pastor Adeniyi Adekunle
+                                              </h5>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="edublink-col-lg-4 edublink-col-md-6 edublink-col-sm-6 edublink-course-single-cat edublink-course-cat-single-grid elementor-repeater-item-29d920a"
+                                          data-sal=""
+                                        >
+                                          <div>
+                                            <div class="content">
+                                              <h5 class="title">
+                                                Pastor Adeniyi Adekunle
+                                              </h5>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="edublink-col-lg-4 edublink-col-md-6 edublink-col-sm-6 edublink-course-single-cat edublink-course-cat-single-grid elementor-repeater-item-b3ea4bf"
+                                          data-sal=""
+                                        >
+                                          <div>
+                                            <div class="content">
+                                              <h5 class="title">
+                                                Pastor Adeniyi Adekunle
+                                              </h5>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="edublink-col-lg-4 edublink-col-md-6 edublink-col-sm-6 edublink-course-single-cat edublink-course-cat-single-grid elementor-repeater-item-d90e237"
+                                          data-sal=""
+                                        >
+                                          <div>
+                                            <div class="content">
+                                              <h5 class="title">
+                                                Pastor Adeniyi Adekunle
+                                              </h5>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="edublink-col-lg-4 edublink-col-md-6 edublink-col-sm-6 edublink-course-single-cat edublink-course-cat-single-grid elementor-repeater-item-e8ec8a9"
+                                          data-sal=""
+                                        >
+                                          <div>
+                                            <div class="content">
+                                              <h5 class="title">
+                                                {" "}
+                                                Pastor Adeniyi Adekunle
+                                              </h5>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="edublink-col-lg-4 edublink-col-md-6 edublink-col-sm-6 edublink-course-single-cat edublink-course-cat-single-grid elementor-repeater-item-8b37cc2"
+                                          data-sal=""
+                                        >
+                                          <div>
+                                            <div class="content">
+                                              <h5 class="title">
+                                                Pastor Adeniyi Adekunle
+                                              </h5>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div
+                                          class="edublink-col-lg-4 edublink-col-md-6 edublink-col-sm-6 edublink-course-single-cat edublink-course-cat-single-grid elementor-repeater-item-cb1086d"
+                                          data-sal=""
+                                        >
+                                          <div>
+                                            <div class="content">
+                                              <h5 class="title">
+                                                Pastor Adeniyi Adekunle
+                                              </h5>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>{" "}
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </section>
