@@ -16,6 +16,7 @@ import Team from "./Team";
 import Builder from "./Builder";
 import Carousel from "./Carousel";
 import Footers from "./Footers";
+import HomeBanner from "./HomeBanner";
 
 const Home = () => {
   return (
@@ -41,7 +42,7 @@ const Home = () => {
                           data-elementor-id="13480"
                           class="elementor elementor-13480"
                         >
-                          <section
+                          {/*} <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-dbcab9a elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle"
                             data-id="dbcab9a"
                             data-element_type="section"
@@ -233,7 +234,8 @@ const Home = () => {
                                 </div>
                               </div>
                             </div>
-                          </section>
+                          </section>*/}
+                          <HomeBanner />
                         </div>
                       </div>
                     </article>
