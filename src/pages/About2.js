@@ -21,7 +21,7 @@ const About2 = () => {
       <body class="home page-template-default page page-id-13480 wp-custom-logo wp-embed-responsive theme-edublink woocommerce-no-js edublink-page-content edublink-page-breadcrumb-disable edublink-page-boxed edublink-page-sidebar-disable theme-name-edublink-child group-blog edublink-sticky-header-enable woocommerce woocommerce-active elementor-default elementor-kit-18 elementor-page elementor-page-13480">
         <div
           class="edublink-page-title-area edublink-breadcrumb-style-1 edublink-breadcrumb-has-bg"
-          style={{ backgroundImage: `url(${r1})` }}
+          style={{ backgroundColor: "#00a5f5" }}
         >
           <div class="edublink-container">
             <div class="edublink-page-title">

@@ -21,7 +21,7 @@ const About = () => {
         >
           <div class="edublink-container">
             <div class="edublink-page-title">
-              <h1 class="entry-title">About Rare Build</h1>
+              <h1 class="entry-title">About Us</h1>
             </div>
             <div class="edublink-breadcrumb-wrapper">
               <nav class="edublink-breadcrumb">
