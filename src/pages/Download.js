@@ -32,7 +32,7 @@ const Download = () => {
         <div class="edublink-page-title-area edublink-default-breadcrumb ">
           <div class="edublink-container">
             <div class="edublink-page-title">
-              <h1 class="entry-title">Download Materials</h1>
+              <h1 class="entry-title">Resources</h1>
             </div>
             <div class="edublink-breadcrumb-wrapper">
               <nav class="edublink-breadcrumb">
