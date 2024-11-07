@@ -11,6 +11,7 @@ import "./style.css";
 import Test from "./Test";
 import Header from "./Header";
 import Footers from "./Footers";
+import NewsSwipe from "./NewsSwipe";
 const Blog = () => {
   return (
     <>
@@ -27,7 +28,7 @@ const Blog = () => {
                     <a href="https://demo.edublink.co/">Home</a>
                   </li>{" "}
                   <li>
-                    <span class="active">Contact Us</span>
+                    <span class="active">Blog</span>
                   </li>
                 </ul>
               </nav>
@@ -44,10 +45,7 @@ const Blog = () => {
               <div id="primary" class="content-area edublink-col-lg-8">
                 <main id="main" class="site-main">
                   {" "}
-                  <header>
-                    <h1 class="page-title screen-reader-text">Blog</h1>
-                  </header>
-                  <div class="edublink-row edublink-blog-post-archive-style-1 eb-masonry-grid-wrapper">
+                  {/*} <div class="edublink-row edublink-blog-post-archive-style-1 eb-masonry-grid-wrapper">
                     <div
                       id="post-15429"
                       class="edublink-post-one-single-grid edublink-col-lg-6 eb-masonry-item edublink-col-md-6 edublink-col-sm-12 post-15429 post type-post status-publish format-standard has-post-thumbnail hentry category-learning category-science tag-elearning tag-software"
@@ -290,7 +288,7 @@ const Blog = () => {
                       </div>
                     </div>
                   </div>
-                  <nav class="edublink-pagination-wrapper">
+               <nav class="edublink-pagination-wrapper">
                     <ul class="page-number">
                       <li>
                         <a
@@ -332,11 +330,11 @@ const Blog = () => {
                         </a>
                       </li>
                     </ul>
-                  </nav>
+                  </nav>*/}
                 </main>
               </div>
-
-              <aside
+              <NewsSwipe />
+              {/*<aside
                 id="secondary"
                 class="widget-area eb-sidebar-widget edublink-col-lg-4"
               >
@@ -550,7 +548,7 @@ const Blog = () => {
                     </div>
                   </section>
                 </div>
-              </aside>
+              </aside>*/}
             </div>
           </div>
         </div>
