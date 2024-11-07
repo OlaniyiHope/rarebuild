@@ -13,6 +13,7 @@ import Header from "./Header";
 import Footers from "./Footers";
 import DataTable from "./DataTable";
 import Swipes from "./Swipes";
+import CareerSwipe from "./CareerSwipe";
 const Career = () => {
   return (
     <>
@@ -21,7 +22,7 @@ const Career = () => {
           <div class="edublink-page-title-area edublink-default-breadcrumb">
             <div class="edublink-container">
               <div class="edublink-page-title">
-                <h1 class="entry-title">Job Opportunities</h1>
+                <h1 class="entry-title">Career</h1>
               </div>
               <div class="edublink-breadcrumb-wrapper">
                 <nav class="edublink-breadcrumb">
@@ -52,9 +53,7 @@ const Career = () => {
                           data-elementor-id="17213"
                           class="elementor elementor-17213"
                         >
-                          <Swipes />
-
-                          <section
+                          {/*<section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-21ebc1c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="21ebc1c"
                             data-element_type="section"
@@ -101,7 +100,7 @@ const Career = () => {
                                 </div>
                               </div>
                             </div>
-                          </section>
+                          </section>*/}
                           {/*}   <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-57db4c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="57db4c6"
@@ -313,8 +312,7 @@ const Career = () => {
                               </div>
                             </div>
                           </section>*/}
-
-                          <DataTable />
+                          <CareerSwipe />
                         </div>
                       </div>
                     </article>
