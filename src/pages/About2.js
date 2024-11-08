@@ -25,7 +25,7 @@ const About2 = () => {
         >
           <div class="edublink-container">
             <div class="edublink-page-title">
-              <h1 class="entry-title">About Rare Build</h1>
+              <h1 class="entry-title">About Us</h1>
             </div>
             <div class="edublink-breadcrumb-wrapper">
               <nav class="edublink-breadcrumb">
@@ -159,26 +159,19 @@ const About2 = () => {
                                               <h6 class="heading ead">
                                                 We aim to provide a responsive,
                                                 imaginative and professional
-                                                architecture service{" "}
-                                                <mark>
-                                                  tailored to the aspiration of
-                                                  each of our client and to
-                                                  deliver quality results
-                                                  regardless of commission, size
-                                                  or type.
-                                                </mark>
+                                                architecture service tailored to
+                                                the aspiration of each of our
+                                                client and to deliver quality
+                                                results regardless of
+                                                commission, size or type.
                                                 <br></br> We seek to develop a
                                                 sustainable and cost efficient
-                                                design,{" "}
-                                                <mark>
-                                                  which speaks the language of
-                                                  global architecture and
-                                                  fulfils the expectation of
-                                                  building users{" "}
-                                                </mark>
-                                                by addressing their identity ,
-                                                physical and socialogical
-                                                context
+                                                design, which speaks the
+                                                language of global architecture
+                                                and fulfils the expectation of
+                                                building users by addressing
+                                                their identity , physical and
+                                                socialogical context
                                               </h6>
 
                                               <div class="title-shape">
