@@ -88,11 +88,10 @@ function NewsSwipe() {
 
       <div className="swiper-container">
         <Swiper
-          modules={[Navigation, Pagination, Autoplay]}
+          modules={[Navigation, Pagination]}
           spaceBetween={20}
           navigation={{ nextEl: ".custom-next", prevEl: ".custom-prev" }}
           loop
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
           breakpoints={{
             640: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
