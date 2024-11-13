@@ -138,10 +138,10 @@ function ResourcesSwipe() {
             </SwiperSlide>
           ))}
           <div className="swiper-button-next">
-            <FaChevronRight />
+            <FaChevronRight style={{ fontSize: "12px" }} />
           </div>
           <div className="swiper-button-prev">
-            <FaChevronLeft />
+            <FaChevronLeft style={{ fontSize: "12px" }} />
           </div>
         </Swiper>
       </div>
@@ -225,6 +225,8 @@ function ResourcesSwipe() {
           top: 50%;
           transform: translateY(-50%);
           z-index: 10;
+          color: black; /* Make arrow black */
+
           cursor: pointer;
         }
         .swiper-button-next {
@@ -232,6 +234,9 @@ function ResourcesSwipe() {
         }
         .swiper-button-prev {
           left: 10px;
+        }
+        .custom-arrow {
+          color: black; /* Ensures color is black */
         }
       `}</style>
     </div>
