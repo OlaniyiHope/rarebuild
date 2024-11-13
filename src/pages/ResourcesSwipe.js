@@ -17,7 +17,7 @@ function ResourcesSwipe() {
       },
       {
         id: 2,
-        name: "Graphics Designer",
+        name: "GraphicsDesigner",
         code: "RKM/2024/07/234",
         deadline: "October 2025",
       },
