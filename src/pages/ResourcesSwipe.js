@@ -98,6 +98,14 @@ function ResourcesSwipe() {
 
   return (
     <div className="container">
+      <div className="section-title">
+        <h3
+          className="title related-course-title"
+          style={{ marginTop: "40px" }}
+        >
+          Resources
+        </h3>
+      </div>
       <div className="swiper-container">
         <Swiper
           ref={swiperRef}
