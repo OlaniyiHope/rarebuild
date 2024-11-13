@@ -24,7 +24,6 @@ import Footers from "./Footers";
 import Swipes from "./Swipes";
 import DataTable from "./DataTable";
 import ResourcesSwipe from "./ResourcesSwipe";
-import Caro from "./Caro";
 
 const Download = () => {
   return (
