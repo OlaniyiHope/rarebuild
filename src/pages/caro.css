@@ -1,0 +1,37 @@
+/* Ensure images in the carousel have the same height */
+.carousel-container .person-info img {
+  width: 100%; /* Make sure the image covers the available width */
+  height: 250px; /* Set a fixed height for consistency */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+/* Style the carousel container */
+.carousel-container .person-info {
+  text-align: center; /* Center text below the image */
+  padding: 20px;
+}
+
+/* For larger screens (Desktop and Tablet), place the image and content side by side */
+@media (min-width: 1024px) {
+  .carousel-container .person-info {
+    display: flex;
+    flex-direction: column; /* Stack content and image */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-container .person-info .text-content {
+    margin-top: 15px; /* Space between image and text */
+  }
+}
+
+/* On Mobile screens, ensure content is below the image */
+@media (max-width: 1024px) {
+  .carousel-container .person-info {
+    display: block; /* Make sure image and content stack vertically */
+  }
+
+  .carousel-container .person-info .text-content {
+    margin-top: 10px; /* Add space between image and text on mobile */
+  }
+}

@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -53,8 +55,7 @@ function ResourcesSwipe() {
       name: "ALL",
       position:
         "Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.",
-      imgSrc:
-        "https://demo.edublink.co/wp-content/uploads/2023/03/course-12-590x430.jpg",
+      imgSrc: "https://demo.edublink.co/wp-content/uploads/2023/05/girl-1.webp",
     },
     {
       id: 2,
@@ -62,7 +63,7 @@ function ResourcesSwipe() {
       position:
         "Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.",
       imgSrc:
-        "https://demo.edublink.co/wp-content/uploads/2023/03/course-12-590x430.jpg",
+        "https://demo.edublink.co/wp-content/uploads/2023/03/course-11-590x430.jpg",
     },
     {
       id: 3,
@@ -78,7 +79,7 @@ function ResourcesSwipe() {
       position:
         "Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.",
       imgSrc:
-        "https://demo.edublink.co/wp-content/uploads/2023/03/course-12-590x430.jpg",
+        "https://demo.edublink.co/wp-content/uploads/2023/03/course-13-590x430.jpg",
     },
     {
       id: 5,
@@ -86,7 +87,7 @@ function ResourcesSwipe() {
       position:
         "Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.",
       imgSrc:
-        "https://demo.edublink.co/wp-content/uploads/2023/03/course-12-590x430.jpg",
+        "https://demo.edublink.co/wp-content/uploads/2023/03/course-14-590x430.jpg",
     },
     {
       id: 6,
@@ -104,29 +105,54 @@ function ResourcesSwipe() {
     setSelectedPerson(person);
   };
 
+  const handleSlideChange = (swiper) => {
+    setSelectedPerson(people[swiper.realIndex]);
+  };
+
+  const handleAfterChange = (currentIndex) => {
+    const validIndex = currentIndex % people.length; // Wrap index within bounds
+
+    // Check if the selected person has changed (if the valid index corresponds to a different person)
+    if (people[validIndex].id !== selectedPerson.id) {
+      setSelectedPerson(people[validIndex]);
+      console.log("Selected person has changed:", people[validIndex]);
+    } else {
+      console.log("No change in selected person.");
+    }
+  };
+
+  // Effect to log whenever selectedPerson changes
+  useEffect(() => {
+    console.log("Selected person has changed:", selectedPerson);
+  }, [selectedPerson]);
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 2,
+      slidesToSlide: 1,
+    },
+    tablet: { breakpoint: { max: 1024, min: 464 }, items: 2, slidesToSlide: 1 },
+    mobile: { breakpoint: { max: 464, min: 0 }, items: 1, slidesToSlide: 1 },
+  };
+
   return (
     <div className="container">
       <h3 className="section-title"></h3>
 
       <div className="swiper-container">
-        <Swiper
+        <Carousel
           modules={[Navigation, Pagination]}
           spaceBetween={20}
-          navigation={{ nextEl: ".custom-next", prevEl: ".custom-prev" }}
+          responsive={responsive}
           loop
           breakpoints={{
             640: { slidesPerView: 1 },
-            768: { slidesPerView: 3 },
-            1024: { slidesPerView: 3 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 2 },
           }}
+          afterChange={handleAfterChange}
+          // onSlideChange={handleSlideChange}
         >
-          <div className="custom-prev">
-            <FaChevronLeft />
-          </div>
-          <div className="custom-next">
-            <FaChevronRight />
-          </div>
-
           {people.map((person) => (
             <SwiperSlide key={person.id}>
               <div
@@ -147,7 +173,7 @@ function ResourcesSwipe() {
               </div>
             </SwiperSlide>
           ))}
-        </Swiper>
+        </Carousel>
       </div>
 
       <ul className="tabs">
