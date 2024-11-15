@@ -133,6 +133,27 @@
     text-align: center !important;
     margin: auto !important;
   }
+  /* .custom-prev,
+  .custom-next {
+    position: absolute;
+    top: 50%;
+
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.7
+    ); 
+    border: none;
+    cursor: pointer;
+    width: 30% !important;
+    height: 30% !important;
+    color: black !important;
+    z-index: 10;
+    padding: 19px !important; 
+    border-radius: 0% !important;
+    transition: background-color 0.3s;
+  } */
 }
 
 .custom-prev,
@@ -143,7 +164,7 @@
   background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
   border: none;
   cursor: pointer;
-  width: 3% !important;
+
   color: black !important;
   z-index: 10;
   padding: 10px; /* Adjust padding as needed */

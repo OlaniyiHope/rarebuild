@@ -14,8 +14,7 @@ function PeopleSlide() {
       position: "President",
       description:
         "Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.",
-      imgSrc:
-        "https://demo.edublink.co/wp-content/uploads/2023/03/course-12-590x430.jpg",
+      imgSrc: "/wp-content/uploads/2023/03/course-12-590x430.jpg",
     },
     {
       id: 2,
@@ -23,8 +22,7 @@ function PeopleSlide() {
       position: "President",
       description:
         "Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.",
-      imgSrc:
-        "https://demo.edublink.co/wp-content/uploads/2023/03/course-12-590x430.jpg",
+      imgSrc: "/wp-content/uploads/2023/03/course-12-590x430.jpg",
     },
     {
       id: 3,
@@ -32,8 +30,7 @@ function PeopleSlide() {
       position: "President",
       description:
         "Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.",
-      imgSrc:
-        "https://demo.edublink.co/wp-content/uploads/2023/03/course-12-590x430.jpg",
+      imgSrc: "/wp-content/uploads/2023/03/course-12-590x430.jpg",
     },
     {
       id: 4,
@@ -41,8 +38,7 @@ function PeopleSlide() {
       position: "President",
       description:
         "Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.",
-      imgSrc:
-        "https://demo.edublink.co/wp-content/uploads/2023/03/course-12-590x430.jpg",
+      imgSrc: "/wp-content/uploads/2023/03/course-12-590x430.jpg",
     },
     {
       id: 5,
@@ -50,8 +46,7 @@ function PeopleSlide() {
       position: "President",
       description:
         "Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.",
-      imgSrc:
-        "https://demo.edublink.co/wp-content/uploads/2023/03/course-12-590x430.jpg",
+      imgSrc: "/wp-content/uploads/2023/03/course-12-590x430.jpg",
     },
     // Add more people as needed
   ];

@@ -121,6 +121,10 @@ function ResourcesSwipe() {
           //   nextEl: ".swiper-button-next",
           //   prevEl: ".swiper-button-prev",
           // }}
+          navigation={{
+            nextEl: ".custom-next",
+            prevEl: ".custom-prev",
+          }}
         >
           {people.map((person) => (
             <SwiperSlide key={person.id}>
@@ -141,12 +145,12 @@ function ResourcesSwipe() {
               </div>
             </SwiperSlide>
           ))}
-          {/*} <div className="swiper-button-next">
-            <FaChevronRight style={{ fontSize: "12px" }} />
+          <div className="custom-prev">
+            <FaChevronLeft />
           </div>
-          <div className="swiper-button-prev">
-            <FaChevronLeft style={{ fontSize: "12px" }} />
-          </div>*/}
+          <div className="custom-next">
+            <FaChevronRight />
+          </div>
         </Swiper>
       </div>
 
