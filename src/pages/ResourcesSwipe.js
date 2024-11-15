@@ -53,32 +53,28 @@ function ResourcesSwipe() {
       name: "ALL",
       position:
         "Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.",
-      imgSrc:
-        "https://demo.edublink.co/wp-content/uploads/2023/03/course-10-590x430.jpg",
+      imgSrc: "/wp-content/uploads/2023/03/course-10-590x430.jpg",
     },
     {
       id: 2,
       name: "GENERAL",
       position:
         "Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.",
-      imgSrc:
-        "https://demo.edublink.co/wp-content/uploads/2023/03/course-11-590x430.jpg",
+      imgSrc: "/wp-content/uploads/2023/03/course-11-590x430.jpg",
     },
     {
       id: 3,
       name: "FINGERPRINT",
       position:
         "Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.",
-      imgSrc:
-        "https://demo.edublink.co/wp-content/uploads/2023/03/course-12-590x430.jpg",
+      imgSrc: "/wp-content/uploads/2023/03/course-12-590x430.jpg",
     },
     {
       id: 4,
       name: "LEBANA",
       position:
         "Restoring the body of Christ to the desire and purpose of her Lord through spirit-enabled engagements.",
-      imgSrc:
-        "https://demo.edublink.co/wp-content/uploads/2023/03/course-13-590x430.jpg",
+      imgSrc: "/wp-content/uploads/2023/03/course-13-590x430.jpg",
     },
   ];
 
@@ -121,10 +117,10 @@ function ResourcesSwipe() {
           keyBoardControl
           itemClass="carousel-item-padding-40-px"
           dotListClass="custom-dot-list-style"
-          navigation={{
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          }}
+          // navigation={{
+          //   nextEl: ".swiper-button-next",
+          //   prevEl: ".swiper-button-prev",
+          // }}
         >
           {people.map((person) => (
             <SwiperSlide key={person.id}>
@@ -145,12 +141,12 @@ function ResourcesSwipe() {
               </div>
             </SwiperSlide>
           ))}
-          <div className="swiper-button-next">
+          {/*} <div className="swiper-button-next">
             <FaChevronRight style={{ fontSize: "12px" }} />
           </div>
           <div className="swiper-button-prev">
             <FaChevronLeft style={{ fontSize: "12px" }} />
-          </div>
+          </div>*/}
         </Swiper>
       </div>
 
