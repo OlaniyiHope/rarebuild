@@ -132,7 +132,7 @@ const About2 = () => {
                                   </div>
                                 </section>
 
-                                <section
+                                {/*}    <section
                                   class="elementor-section elementor-inner-section elementor-element elementor-element-21ebc1c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                   data-id="21ebc1c"
                                   data-element_type="section"
@@ -183,11 +183,12 @@ const About2 = () => {
                                       </div>
                                     </div>
                                   </div>
-                                </section>
+                                </section>*/}
                                 <section
                                   class="zin elementor-section elementor-inner-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                   data-id="faace8e"
                                   data-element_type="section"
+                                  style={{ marginBottom: "20px" }}
                                 >
                                   <div class="elementor-container elementor-column-gap-no">
                                     <div
@@ -205,25 +206,40 @@ const About2 = () => {
                                         >
                                           <div class="elementor-widget-container">
                                             <div class="edublink-icon-box-wrapper edublink-icon-box-icon edublink-icon-box-icon-position-top">
-                                              <div class="edublink-icon-box-icon edublink-icon-box-enable">
+                                              {/*}   <div class="edublink-icon-box-icon edublink-icon-box-enable">
                                                 <i
                                                   aria-hidden="true"
                                                   class="fas fa-bullseye"
                                                 ></i>
-                                              </div>
+                                              </div>*/}
                                               <div class="edublink-icon-box-content">
-                                                <h4 class="edublink-icon-box-title">
+                                                {/*}  <h4 class="edublink-icon-box-title">
                                                   Our Mission
-                                                </h4>
+                                                </h4>*/}
                                                 <div class="edublink-icon-box-details">
-                                                  <p>
-                                                    To deliver functional,
-                                                    sustainable and beautiful
-                                                    designs and build solutions
-                                                    that exceed our clients
-                                                    expectation while fostrering
-                                                    a culture of excellence to
-                                                    enrich life
+                                                  <p
+                                                    style={{
+                                                      fontSize: "18px",
+                                                      textAlign: "justify",
+                                                    }}
+                                                  >
+                                                    We aim to provide a
+                                                    responsive, imaginative and
+                                                    professional architecture
+                                                    service tailored to the
+                                                    aspiration of each of our
+                                                    client and to deliver
+                                                    quality results regardless
+                                                    of commission, size or type.
+                                                    <br></br> We seek to develop
+                                                    a sustainable and cost
+                                                    efficient design, which
+                                                    speaks the language of
+                                                    global architecture and
+                                                    fulfils the expectation of
+                                                    building users by addressing
+                                                    their identity , physical
+                                                    and socialogical context
                                                   </p>
                                                 </div>
                                               </div>
@@ -247,25 +263,350 @@ const About2 = () => {
                                         >
                                           <div class="elementor-widget-container">
                                             <div class="edublink-icon-box-wrapper edublink-icon-box-icon edublink-icon-box-icon-position-top">
-                                              <div class="edublink-icon-box-icon edublink-icon-box-enable">
+                                              {/*}  <div class="edublink-icon-box-icon edublink-icon-box-enable">
                                                 <i
                                                   aria-hidden="true"
                                                   class="fas fa-binoculars"
                                                 ></i>
-                                              </div>
+                                              </div>*/}
                                               <div class="edublink-icon-box-content">
-                                                <h4 class="edublink-icon-box-title">
+                                                {/*}  <h4 class="edublink-icon-box-title">
+                                                  Our Vision
+                                                </h4>*/}
+                                                <div class="edublink-icon-box-details">
+                                                  <p
+                                                    style={{
+                                                      fontSize: "18px",
+                                                      textAlign: "justify",
+                                                    }}
+                                                  >
+                                                    We aim to provide a
+                                                    responsive, imaginative and
+                                                    professional architecture
+                                                    service tailored to the
+                                                    aspiration of each of our
+                                                    client and to deliver
+                                                    quality results regardless
+                                                    of commission, size or type.
+                                                    <br></br> We seek to develop
+                                                    a sustainable and cost
+                                                    efficient design, which
+                                                    speaks the language of
+                                                    global architecture and
+                                                    fulfils the expectation of
+                                                    building users by addressing
+                                                    their identity , physical
+                                                    and socialogical context
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            </div>{" "}
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </section>
+
+                                <section
+                                  class="zin elementor-section elementor-inner-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                  data-id="faace8e"
+                                  data-element_type="section"
+                                  style={{ marginBottom: "20px" }}
+                                >
+                                  <div class="elementor-container elementor-column-gap-no">
+                                    <div
+                                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-919723e"
+                                      data-id="919723e"
+                                      data-element_type="column"
+                                    >
+                                      <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div
+                                          class="elementor-element elementor-element-5b44946  elementor-widget elementor-widget-edublink-icon-box"
+                                          data-id="5b44946"
+                                          data-element_type="widget"
+                                          data-settings='{"_animation":"edublink--slide-up","_animation_delay":50}'
+                                          data-widget_type="edublink-icon-box.default"
+                                        >
+                                          <div class="elementor-widget-container">
+                                            <div class="edublink-icon-box-wrapper edublink-icon-box-icon edublink-icon-box-icon-position-top">
+                                              {/*}   <div class="edublink-icon-box-icon edublink-icon-box-enable">
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-bullseye"
+                                              ></i>
+                                            </div>*/}
+                                              <div class="edublink-icon-box-content">
+                                                <h4
+                                                  class="edublink-icon-box-title"
+                                                  style={{
+                                                    textTransform: "uppercase",
+                                                    color: "#00a5f5",
+                                                    textAlign: "justify",
+                                                    fontWeight: "900",
+                                                  }}
+                                                >
+                                                  Our Mission
+                                                </h4>
+
+                                                <div class="edublink-icon-box-details">
+                                                  <p
+                                                    style={{
+                                                      fontSize: "18px",
+                                                      textAlign: "justify",
+                                                    }}
+                                                  >
+                                                    We aim to provide a
+                                                    responsive, imaginative and
+                                                    professional architecture
+                                                    service tailored to the
+                                                    aspiration of each of our
+                                                    client and to deliver
+                                                    quality results regardless
+                                                    of commission, size or type.
+                                                    <br></br> We seek to develop
+                                                    a sustainable and cost
+                                                    efficient design, which
+                                                    speaks the language of
+                                                    global architecture and
+                                                    fulfils the expectation of
+                                                    building users by addressing
+                                                    their identity , physical
+                                                    and socialogical context
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            </div>{" "}
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-041d259"
+                                      data-id="041d259"
+                                      data-element_type="column"
+                                    >
+                                      <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div
+                                          class="elementor-element elementor-element-e68ab37  elementor-widget elementor-widget-edublink-icon-box"
+                                          data-id="e68ab37"
+                                          data-element_type="widget"
+                                          data-settings='{"_animation":"edublink--slide-up","_animation_delay":100}'
+                                          data-widget_type="edublink-icon-box.default"
+                                        >
+                                          <div class="elementor-widget-container">
+                                            <div class="edublink-icon-box-wrapper edublink-icon-box-icon edublink-icon-box-icon-position-top">
+                                              {/*}  <div class="edublink-icon-box-icon edublink-icon-box-enable">
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-binoculars"
+                                              ></i>
+                                            </div>*/}
+                                              <div class="edublink-icon-box-content">
+                                                <h4
+                                                  class="edublink-icon-box-title"
+                                                  style={{
+                                                    textTransform: "uppercase",
+                                                    color: "#00a5f5",
+                                                    textAlign: "justify",
+                                                    fontWeight: "900",
+                                                  }}
+                                                >
                                                   Our Vision
                                                 </h4>
                                                 <div class="edublink-icon-box-details">
-                                                  <p>
-                                                    To deliver functional,
-                                                    sustainable and beautiful
-                                                    designs and build solutions
-                                                    that exceed our clients
-                                                    expectation while fostrering
-                                                    a culture of excellence to
-                                                    enrich life
+                                                  <p
+                                                    style={{
+                                                      fontSize: "18px",
+                                                      textAlign: "justify",
+                                                    }}
+                                                  >
+                                                    We aim to provide a
+                                                    responsive, imaginative and
+                                                    professional architecture
+                                                    service tailored to the
+                                                    aspiration of each of our
+                                                    client and to deliver
+                                                    quality results regardless
+                                                    of commission, size or type.
+                                                    <br></br> We seek to develop
+                                                    a sustainable and cost
+                                                    efficient design, which
+                                                    speaks the language of
+                                                    global architecture and
+                                                    fulfils the expectation of
+                                                    building users by addressing
+                                                    their identity , physical
+                                                    and socialogical context
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            </div>{" "}
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </section>
+
+                                <section
+                                  class="zin elementor-section elementor-inner-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                  data-id="faace8e"
+                                  data-element_type="section"
+                                >
+                                  <div class="elementor-container elementor-column-gap-no">
+                                    <div
+                                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-919723e"
+                                      data-id="919723e"
+                                      data-element_type="column"
+                                    >
+                                      <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div
+                                          class="elementor-element elementor-element-5b44946  elementor-widget elementor-widget-edublink-icon-box"
+                                          data-id="5b44946"
+                                          data-element_type="widget"
+                                          data-settings='{"_animation":"edublink--slide-up","_animation_delay":50}'
+                                          data-widget_type="edublink-icon-box.default"
+                                        >
+                                          <div class="elementor-widget-container">
+                                            <div class="edublink-icon-box-wrapper edublink-icon-box-icon edublink-icon-box-icon-position-top">
+                                              {/*}   <div class="edublink-icon-box-icon edublink-icon-box-enable">
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-bullseye"
+                                              ></i>
+                                            </div>*/}
+                                              <div class="edublink-icon-box-content">
+                                                <h4
+                                                  class="edublink-icon-box-title"
+                                                  style={{
+                                                    textTransform: "uppercase",
+                                                    color: "#00a5f5",
+                                                    textAlign: "justify",
+                                                    fontWeight: "900",
+                                                  }}
+                                                >
+                                                  Our MInistries
+                                                </h4>
+
+                                                <div class="edublink-icon-box-details">
+                                                  <p
+                                                    style={{
+                                                      fontSize: "18px",
+                                                      textAlign: "justify",
+                                                    }}
+                                                  >
+                                                    Our MultiDmiensional
+                                                    engagement includes the
+                                                    following:
+                                                  </p>
+                                                  <p
+                                                    style={{
+                                                      fontSize: "18px",
+                                                      textAlign: "justify",
+                                                    }}
+                                                  >
+                                                    <strong>
+                                                      The finger Print
+                                                      Commission
+                                                    </strong>{" "}
+                                                    - Our-in-to-reach to the
+                                                    church of God in Christ
+                                                    Jesus
+                                                  </p>
+                                                  <p
+                                                    style={{
+                                                      fontSize: "18px",
+                                                      textAlign: "justify",
+                                                    }}
+                                                  >
+                                                    <strong>
+                                                      Lebana Academy
+                                                    </strong>{" "}
+                                                    - Our-in-to-reach to the
+                                                    church of God in Christ
+                                                    Jesus
+                                                  </p>
+                                                </div>
+                                              </div>
+                                            </div>{" "}
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div
+                                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-041d259"
+                                      data-id="041d259"
+                                      data-element_type="column"
+                                    >
+                                      <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div
+                                          class="elementor-element elementor-element-e68ab37  elementor-widget elementor-widget-edublink-icon-box"
+                                          data-id="e68ab37"
+                                          data-element_type="widget"
+                                          data-settings='{"_animation":"edublink--slide-up","_animation_delay":100}'
+                                          data-widget_type="edublink-icon-box.default"
+                                        >
+                                          <div class="elementor-widget-container">
+                                            <div class="edublink-icon-box-wrapper edublink-icon-box-icon edublink-icon-box-icon-position-top">
+                                              {/*}  <div class="edublink-icon-box-icon edublink-icon-box-enable">
+                                              <i
+                                                aria-hidden="true"
+                                                class="fas fa-binoculars"
+                                              ></i>
+                                            </div>*/}
+                                              <div class="edublink-icon-box-content">
+                                                <h4
+                                                  class="edublink-icon-box-title"
+                                                  style={{
+                                                    textTransform: "uppercase",
+                                                    color: "#00a5f5",
+                                                    textAlign: "justify",
+                                                    fontWeight: "900",
+                                                  }}
+                                                ></h4>
+                                                <div class="edublink-icon-box-details">
+                                                  <p
+                                                    style={{
+                                                      fontSize: "18px",
+                                                      textAlign: "justify",
+                                                    }}
+                                                  >
+                                                    <strong>
+                                                      The finger Print
+                                                      Commission
+                                                    </strong>{" "}
+                                                    - Our-in-to-reach to the
+                                                    church of God in Christ
+                                                    Jesus
+                                                  </p>
+                                                  <p
+                                                    style={{
+                                                      fontSize: "18px",
+                                                      textAlign: "justify",
+                                                    }}
+                                                  >
+                                                    <strong>
+                                                      The finger Print
+                                                      Commission
+                                                    </strong>{" "}
+                                                    - Our-in-to-reach to the
+                                                    church of God in Christ
+                                                    Jesus
+                                                  </p>
+                                                  <p
+                                                    style={{
+                                                      fontSize: "18px",
+                                                      textAlign: "justify",
+                                                    }}
+                                                  >
+                                                    <strong>
+                                                      The finger Print
+                                                      Commission
+                                                    </strong>{" "}
+                                                    - Our-in-to-reach to the
+                                                    church of God in Christ
+                                                    Jesus
                                                   </p>
                                                 </div>
                                               </div>
@@ -280,7 +621,7 @@ const About2 = () => {
                             </div>
                           </div>
                         </section>
-                        <section
+                        {/*} <section
                           class="elementor-section elementor-top-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                           data-element_type="section"
                         >
@@ -469,7 +810,7 @@ const About2 = () => {
                               </section>
                             </div>
                           </div>
-                        </section>
+                        </section>*/}
 
                         <Swipes />
 

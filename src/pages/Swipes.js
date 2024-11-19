@@ -50,10 +50,7 @@ function Swipes() {
             <div className="edublink-single-course course-style-1">
               <div className="inner">
                 <div className="thumbnail">
-                  <a
-                    className="course-thumb"
-                    href="https://demo.edublink.co/courses/the-complete-guide-to-build-restful-api-application/"
-                  >
+                  <a className="course-thumb">
                     <img
                       className="w-100"
                       src="https://demo.edublink.co/wp-content/uploads/2023/03/course-12-590x430.jpg"
@@ -74,7 +71,7 @@ function Swipes() {
                     Finger Print Commission
                   </span>
                   <h6 className="title">
-                    <a href="https://demo.edublink.co/courses/the-complete-guide-to-build-restful-api-application/">
+                    <a>
                       Restoring the body of Christ to the desire and purpose of
                       her Lord through spirit-enabled engagements
                     </a>
@@ -87,10 +84,7 @@ function Swipes() {
             <div className="edublink-single-course course-style-1">
               <div className="inner">
                 <div className="thumbnail">
-                  <a
-                    className="course-thumb"
-                    href="https://demo.edublink.co/courses/the-complete-guide-to-build-restful-api-application/"
-                  >
+                  <a className="course-thumb">
                     <img
                       className="w-100"
                       src="https://demo.edublink.co/wp-content/uploads/2023/03/course-12-590x430.jpg"
@@ -111,7 +105,7 @@ function Swipes() {
                     The Shade Network
                   </span>
                   <h6 className="title">
-                    <a href="https://demo.edublink.co/courses/the-complete-guide-to-build-restful-api-application/">
+                    <a>
                       Restoring the body of Christ to the desire and purpose of
                       her Lord through spirit-enabled engagements
                     </a>
@@ -124,10 +118,7 @@ function Swipes() {
             <div className="edublink-single-course course-style-1">
               <div className="inner">
                 <div className="thumbnail">
-                  <a
-                    className="course-thumb"
-                    href="https://demo.edublink.co/courses/the-complete-guide-to-build-restful-api-application/"
-                  >
+                  <a className="course-thumb">
                     <img
                       className="w-100"
                       src="https://demo.edublink.co/wp-content/uploads/2023/03/course-12-590x430.jpg"
@@ -148,7 +139,7 @@ function Swipes() {
                     Lebana Academy
                   </span>
                   <h6 className="title">
-                    <a href="https://demo.edublink.co/courses/the-complete-guide-to-build-restful-api-application/">
+                    <a>
                       Restoring the body of Christ to the desire and purpose of
                       her Lord through spirit-enabled engagements
                     </a>
@@ -161,10 +152,7 @@ function Swipes() {
             <div className="edublink-single-course course-style-1">
               <div className="inner">
                 <div className="thumbnail">
-                  <a
-                    className="course-thumb"
-                    href="https://demo.edublink.co/courses/the-complete-guide-to-build-restful-api-application/"
-                  >
+                  <a className="course-thumb">
                     <img
                       className="w-100"
                       src="https://demo.edublink.co/wp-content/uploads/2023/03/course-12-590x430.jpg"
@@ -185,7 +173,7 @@ function Swipes() {
                     Finger Print Commission
                   </span>
                   <h6 className="title">
-                    <a href="https://demo.edublink.co/courses/the-complete-guide-to-build-restful-api-application/">
+                    <a>
                       Restoring the body of Christ to the desire and purpose of
                       her Lord through spirit-enabled engagements
                     </a>
