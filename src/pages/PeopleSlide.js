@@ -170,17 +170,62 @@ function PeopleSlide() {
         >
           Finger Print Commission
         </p>
-
-        <ul class="simple-list" style={{ listStyle: "none", fontSize: "20px" }}>
-          <li>Pastor Adeniyi Adekunle</li>
-          <li>Pastor Adeniyi Adekunle</li>
-          <li>Pastor Adeniyi Adekunle</li>
-          <li>Pastor Adeniyi Adekunle</li>
-          <li>Pastor Adeniyi Adekunle</li>
-          <li>Pastor Adeniyi Adekunle</li>
-          <li>Pastor Adeniyi Adekunle</li>
-          <li>Pastor Adeniyi Adekunle</li>
-        </ul>
+        <p
+          style={{
+            fontSize: "20px",
+          }}
+        >
+          Pastor Adeniyi Adekunle
+        </p>
+        <p
+          style={{
+            fontSize: "20px",
+          }}
+        >
+          Pastor Adeniyi Adekunle
+        </p>
+        <p
+          style={{
+            fontSize: "20px",
+          }}
+        >
+          Pastor Adeniyi Adekunle
+        </p>
+        <p
+          style={{
+            fontSize: "20px",
+          }}
+        >
+          Pastor Adeniyi Adekunle
+        </p>
+        <p
+          style={{
+            fontSize: "20px",
+          }}
+        >
+          Pastor Adeniyi Adekunle
+        </p>
+        <p
+          style={{
+            fontSize: "20px",
+          }}
+        >
+          Pastor Adeniyi Adekunle
+        </p>
+        <p
+          style={{
+            fontSize: "20px",
+          }}
+        >
+          Pastor Adeniyi Adekunle
+        </p>
+        <p
+          style={{
+            fontSize: "20px",
+          }}
+        >
+          Pastor Adeniyi Adekunle
+        </p>
       </section>
     </div>
   );
