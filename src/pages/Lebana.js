@@ -334,7 +334,7 @@ const Lebana = () => {
         >
           <div class="edublink-container">
             <div class="edublink-page-title">
-              <h1 class="entry-title">Finger Print Commision</h1>
+              <h1 class="entry-title">Lebana Academy</h1>
             </div>
             <div class="edublink-breadcrumb-wrapper">
               <nav class="edublink-breadcrumb">
@@ -343,7 +343,7 @@ const Lebana = () => {
                     <a href="../index.html">Home</a>{" "}
                   </li>{" "}
                   <li>
-                    <span class="active">Finger print commission</span>
+                    <span class="active">Lebana</span>
                   </li>
                 </ul>
               </nav>
