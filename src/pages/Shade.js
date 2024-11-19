@@ -329,7 +329,7 @@ const Shade = () => {
         >
           <div class="edublink-container">
             <div class="edublink-page-title">
-              <h1 class="entry-title">Finger Print Commision</h1>
+              <h1 class="entry-title">The Shade Network</h1>
             </div>
             <div class="edublink-breadcrumb-wrapper">
               <nav class="edublink-breadcrumb">
@@ -338,7 +338,7 @@ const Shade = () => {
                     <a href="../index.html">Home</a>{" "}
                   </li>{" "}
                   <li>
-                    <span class="active">Finger print commission</span>
+                    <span class="active">The Shade Network</span>
                   </li>
                 </ul>
               </nav>
