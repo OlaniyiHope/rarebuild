@@ -245,7 +245,7 @@ const Contact = () => {
                                       <div class="elementor-widget-container">
                                         <p>
                                           Fill out this form for booking a
-                                          consultant advising session.
+                                          consultant advising session
                                         </p>{" "}
                                       </div>
                                     </div>
