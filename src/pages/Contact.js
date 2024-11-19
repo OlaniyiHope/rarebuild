@@ -419,39 +419,6 @@ const Contact = () => {
                               </div>
                             </div>
                           </section>
-                          <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-a7d265d elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                            data-id="a7d265d"
-                            data-element_type="section"
-                          >
-                            <div class="elementor-container elementor-column-gap-no">
-                              <div
-                                class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-102888e"
-                                data-id="102888e"
-                                data-element_type="column"
-                              >
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                  <div
-                                    class="elementor-element elementor-element-3ac55f1 elementor-widget elementor-widget-google_maps"
-                                    data-id="3ac55f1"
-                                    data-element_type="widget"
-                                    data-widget_type="google_maps.default"
-                                  >
-                                    <div class="elementor-widget-container">
-                                      <div class="elementor-custom-embed">
-                                        <iframe
-                                          loading="lazy"
-                                          src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near"
-                                          title="London Eye, London, United Kingdom"
-                                          aria-label="London Eye, London, United Kingdom"
-                                        ></iframe>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </section>
                         </div>
                       </div>
                     </article>
