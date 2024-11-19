@@ -291,7 +291,7 @@ const Contact = () => {
                                                       <input
                                                         class="wpcf7-form-control wpcf7-submit has-spinner edublink-button-with-icon"
                                                         type="submit"
-                                                        value="Submit Message"
+                                                        value="Send"
                                                       />
                                                     </p>
                                                   </div>
