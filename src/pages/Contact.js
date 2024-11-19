@@ -61,138 +61,6 @@ const Contact = () => {
                           >
                             <div class="elementor-container elementor-column-gap-extended">
                               <div
-                                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c8aa340"
-                                data-id="c8aa340"
-                                data-element_type="column"
-                              >
-                                <div class="elementor-widget-wrap elementor-element-populated">
-                                  <div
-                                    class="elementor-element elementor-element-bef7517 elementor-widget elementor-widget-heading"
-                                    data-id="bef7517"
-                                    data-element_type="widget"
-                                    data-widget_type="heading.default"
-                                  >
-                                    <div class="elementor-widget-container">
-                                      <h3 class="elementor-heading-title elementor-size-default">
-                                        We're Always Eager to Hear From You!
-                                      </h3>{" "}
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="elementor-element elementor-element-614944a elementor-widget elementor-widget-heading"
-                                    data-id="614944a"
-                                    data-element_type="widget"
-                                    data-widget_type="heading.default"
-                                  >
-                                    <div class="elementor-widget-container">
-                                      <h5 class="elementor-heading-title elementor-size-default">
-                                        Address
-                                      </h5>{" "}
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="elementor-element elementor-element-d0523ab elementor-widget elementor-widget-text-editor"
-                                    data-id="d0523ab"
-                                    data-element_type="widget"
-                                    data-widget_type="text-editor.default"
-                                  >
-                                    <div class="elementor-widget-container">
-                                      <p>
-                                        Studio 76d, Riley Ford, North Michael
-                                        chester, CF99 6QQ
-                                      </p>{" "}
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="elementor-element elementor-element-18d270e elementor-widget elementor-widget-heading"
-                                    data-id="18d270e"
-                                    data-element_type="widget"
-                                    data-widget_type="heading.default"
-                                  >
-                                    <div class="elementor-widget-container">
-                                      <h5 class="elementor-heading-title elementor-size-default">
-                                        Email
-                                      </h5>{" "}
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="elementor-element elementor-element-97ed7a4    elementor-widget elementor-widget-text-editor"
-                                    data-id="97ed7a4"
-                                    data-element_type="widget"
-                                    data-widget_type="text-editor.default"
-                                  >
-                                    <div class="elementor-widget-container">
-                                      <p>
-                                        <a href="mailto:edublink@example.com">
-                                          edublink@example.com
-                                        </a>
-                                      </p>{" "}
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="elementor-element elementor-element-aa261c0 elementor-widget elementor-widget-heading"
-                                    data-id="aa261c0"
-                                    data-element_type="widget"
-                                    data-widget_type="heading.default"
-                                  >
-                                    <div class="elementor-widget-container">
-                                      <h5 class="elementor-heading-title elementor-size-default">
-                                        Phone
-                                      </h5>{" "}
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="elementor-element elementor-element-595dd16 elementor-widget elementor-widget-text-editor"
-                                    data-id="595dd16"
-                                    data-element_type="widget"
-                                    data-widget_type="text-editor.default"
-                                  >
-                                    <div class="elementor-widget-container">
-                                      <p>
-                                        <a href="tel:(+091) 413 554 8598">
-                                          (+091) 413 554 8598
-                                        </a>
-                                      </p>{" "}
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="elementor-element elementor-element-78ac899 elementor-widget elementor-widget-edublink-social-icons"
-                                    data-id="78ac899"
-                                    data-element_type="widget"
-                                    data-widget_type="edublink-social-icons.default"
-                                  >
-                                    <div class="elementor-widget-container">
-                                      <div class="edublink-social-icons-wrapper">
-                                        <a class="elementor-repeater-item-cf6a47b edublink-social-icon-each-item elementor-animation-">
-                                          <i
-                                            aria-hidden="true"
-                                            class="edublink icon-share-alt"
-                                          ></i>
-                                        </a>
-                                        <a class="elementor-repeater-item-01aed80 edublink-social-icon-each-item elementor-animation-">
-                                          <i
-                                            aria-hidden="true"
-                                            class="edublink icon-facebook"
-                                          ></i>
-                                        </a>
-                                        <a class="elementor-repeater-item-9450a8b edublink-social-icon-each-item elementor-animation-">
-                                          <i
-                                            aria-hidden="true"
-                                            class="edublink icon-twitter"
-                                          ></i>
-                                        </a>
-                                        <a class="elementor-repeater-item-60bf3fe edublink-social-icon-each-item elementor-animation-">
-                                          <i
-                                            aria-hidden="true"
-                                            class="edublink icon-linkedin2"
-                                          ></i>
-                                        </a>
-                                      </div>{" "}
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div
                                 class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-88dca94"
                                 data-id="88dca94"
                                 data-element_type="column"
@@ -231,8 +99,19 @@ const Contact = () => {
                                       data-widget_type="heading.default"
                                     >
                                       <div class="elementor-widget-container">
-                                        <h5 class="elementor-heading-title elementor-size-default">
-                                          Get In Touch
+                                        <h5
+                                          class="elementor-heading-title elementor-size-default"
+                                          style={{ lineHeight: "2" }}
+                                        >
+                                          Is there something we can do to serve
+                                          you?
+                                        </h5>{" "}
+                                        <h5
+                                          class="elementor-heading-title elementor-size-default"
+                                          style={{ lineHeight: "2" }}
+                                        >
+                                          Kindly let us know. We will respond as
+                                          fast as possible
                                         </h5>{" "}
                                       </div>
                                     </div>
@@ -241,14 +120,7 @@ const Contact = () => {
                                       data-id="3e24b46"
                                       data-element_type="widget"
                                       data-widget_type="text-editor.default"
-                                    >
-                                      <div class="elementor-widget-container">
-                                        <p>
-                                          Fill out this form for booking a
-                                          consultant advising session
-                                        </p>{" "}
-                                      </div>
-                                    </div>
+                                    ></div>
                                     <div
                                       class="elementor-element elementor-element-43b0ae4 elementor-widget elementor-widget-edublink-contact-form-seven"
                                       data-id="43b0ae4"
@@ -344,7 +216,7 @@ const Contact = () => {
                                                           class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email edublink-contact-form-field"
                                                           aria-required="true"
                                                           aria-invalid="false"
-                                                          placeholder="Enter your email *"
+                                                          placeholder="Ministry/Company/Organization*"
                                                           value=""
                                                           type="email"
                                                           name="email-349"
@@ -364,7 +236,27 @@ const Contact = () => {
                                                           size="40"
                                                           class="wpcf7-form-control wpcf7-text edublink-contact-form-field"
                                                           aria-invalid="false"
-                                                          placeholder="Subject"
+                                                          placeholder="Designation *"
+                                                          value=""
+                                                          type="text"
+                                                          name="text-447"
+                                                        />
+                                                      </span>
+                                                    </p>
+                                                  </div>
+                                                </div>
+                                                <div class="edublink-contact-form-single-item">
+                                                  <div class="edublink-contact-form-single-item-content">
+                                                    <p>
+                                                      <span
+                                                        class="wpcf7-form-control-wrap"
+                                                        data-name="text-447"
+                                                      >
+                                                        <input
+                                                          size="40"
+                                                          class="wpcf7-form-control wpcf7-text edublink-contact-form-field"
+                                                          aria-invalid="false"
+                                                          placeholder="Inquiry *"
                                                           value=""
                                                           type="text"
                                                           name="text-447"
@@ -386,7 +278,7 @@ const Contact = () => {
                                                           class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required edublink-contact-form-textarea edublink-contact-form-field"
                                                           aria-required="true"
                                                           aria-invalid="false"
-                                                          placeholder="Your Message"
+                                                          placeholder="Submit a brief"
                                                           name="textarea-865"
                                                         ></textarea>
                                                       </span>
