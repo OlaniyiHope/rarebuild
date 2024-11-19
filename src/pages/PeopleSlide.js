@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -52,7 +52,18 @@ function PeopleSlide() {
   ];
   // State to track the currently selected person
   const [selectedPerson, setSelectedPerson] = useState(people[0]);
+  const swiperRef = useRef(null);
 
+  const handleTabClick = (person) => {
+    setSelectedPerson(person);
+    if (swiperRef.current) {
+      swiperRef.current.swiper.slideTo(person.id - 1); // Update the swiper slide
+    }
+  };
+
+  const handleSlideChange = (swiper) => {
+    setSelectedPerson(people[swiper.realIndex]);
+  };
   // Array of people data
 
   return (
@@ -76,6 +87,7 @@ function PeopleSlide() {
             prevEl: ".custom-prev",
           }}
           loop
+          onSlideChange={handleSlideChange}
           breakpoints={{
             640: { slidesPerView: 1 },
             768: { slidesPerView: 3 },
