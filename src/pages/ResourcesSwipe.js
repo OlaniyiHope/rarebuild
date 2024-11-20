@@ -102,10 +102,12 @@ function ResourcesSwipe() {
           Resources
         </h3>
       </div>
-      <div className="edublink-related-course-items eb-swiper-carousel-activator swiper-container">
+      <div className="swiper-container">
         <Swiper
+          ref={swiperRef}
           modules={[Navigation, Pagination]}
           spaceBetween={20}
+          slidesPerView={1}
           breakpoints={{
             640: { slidesPerView: 1 }, // For mobile devices
             768: { slidesPerView: 2 }, // For tablets and small screens
@@ -113,6 +115,9 @@ function ResourcesSwipe() {
           }}
           loop
           onSlideChange={handleSlideChange}
+          keyBoardControl
+          itemClass="carousel-item-padding-40-px"
+          dotListClass="custom-dot-list-style"
           // navigation={{
           //   nextEl: ".swiper-button-next",
           //   prevEl: ".swiper-button-prev",
