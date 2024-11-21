@@ -1,0 +1,8 @@
+@media (max-width: 600px) {
+  .pep {
+    height: 200px !important;
+  }
+}
+.pep {
+  height: 400px !important;
+}

@@ -5,6 +5,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "./pep.css";
 
 function PeopleSlide() {
   const people = [
@@ -89,7 +90,8 @@ function PeopleSlide() {
           loop
           onSlideChange={handleSlideChange}
           breakpoints={{
-            640: { slidesPerView: 1 },
+            340: { slidesPerView: 2 },
+            640: { slidesPerView: 2 },
             768: { slidesPerView: 3 },
             1024: { slidesPerView: 3 },
           }}
@@ -111,10 +113,9 @@ function PeopleSlide() {
                 <div className="inner">
                   <div className="thumbnail">
                     <img
-                      className="w-100"
+                      className="w-100 pep"
                       src={person.imgSrc}
                       alt={person.name}
-                      style={{ height: "400px" }}
                     />
                   </div>
                 </div>
