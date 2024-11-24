@@ -85,7 +85,7 @@ function Homer() {
           >
             Responding to God
           </h3>
-          <p style={{ fontWeight: "800", color: "white" }}>
+          <p style={{ fontWeight: "800", color: "black" }}>
             Samson Adeosun | Faith | 04.09.2024
           </p>
           <a
