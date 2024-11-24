@@ -97,7 +97,7 @@ function ResourcesSwipe() {
       <div className="section-title">
         <h3
           className="title related-course-title"
-          style={{ marginTop: "40px" }}
+          style={{ marginTop: "40px", color: "black" }}
         >
           Resources
         </h3>
