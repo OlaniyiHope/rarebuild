@@ -20,28 +20,6 @@ const People = () => {
   return (
     <>
       <body class="home page-template-default page page-id-13480 wp-custom-logo wp-embed-responsive theme-edublink woocommerce-no-js edublink-page-content edublink-page-breadcrumb-disable edublink-page-boxed edublink-page-sidebar-disable theme-name-edublink-child group-blog edublink-sticky-header-enable woocommerce woocommerce-active elementor-default elementor-kit-18 elementor-page elementor-page-13480">
-        <div
-          class="edublink-page-title-area edublink-breadcrumb-style-1 edublink-breadcrumb-has-bg"
-          style={{ backgroundImage: `url(${r1})` }}
-        >
-          <div class="edublink-container">
-            <div class="edublink-page-title">
-              <h1 class="entry-title">RareBuild People</h1>
-            </div>
-            <div class="edublink-breadcrumb-wrapper">
-              <nav class="edublink-breadcrumb">
-                <ul class="breadcrumb">
-                  <li>
-                    <a href="../index.html">Home</a>{" "}
-                  </li>{" "}
-                  <li>
-                    <span class="active">About Us</span>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
         <div id="content" class="site-content">
           <div class="site-content-inner edublink-page-container edublink-container">
             <div class="edublink-main-content-inner edublink-row">

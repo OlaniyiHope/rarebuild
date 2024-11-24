@@ -154,19 +154,22 @@ function PeopleSlide() {
         <hr
           style={{
             marginTop: "50px",
-            border: "0.1px solid black", // Adjust the thickness as needed
+            border: "10px solid ash", // Adjust the thickness as needed
             color: "black",
           }}
         />
       </div>
 
       <section class="simple-section">
-        <h3 style={{ marginTop: "40px" }}>Board of Builders</h3>
+        <h3 style={{ marginTop: "40px", fontSize: "22px" }}>
+          Board of Builders
+        </h3>
         <p
           style={{
             textTransform: "uppercase",
             fontWeight: "700",
             fontSize: "20px",
+            color: "black",
           }}
         >
           Finger Print Commission
