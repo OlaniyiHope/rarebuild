@@ -72,7 +72,7 @@ function PeopleSlide() {
       <div className="section-title">
         <h3
           className="title related-course-title"
-          style={{ marginTop: "40px" }}
+          style={{ marginTop: "40px", color: "black" }}
         >
           People
         </h3>
