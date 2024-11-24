@@ -120,6 +120,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import build from "./build.png";
+import "./homebanner.css";
 
 function HomeBanner() {
   const slides = [
@@ -176,37 +177,11 @@ function HomeBanner() {
             <div style={{ textAlign: "center", maxWidth: "700px" }}>
               {/* First Text Group */}
               <div style={{ marginBottom: "40px" }}>
-                <h1
-                  style={{
-                    fontSize: "4.5rem",
-                    marginBottom: "10px",
-                    color: "#fff",
-                    fontWeight: "bold",
-                  }}
-                >
-                  {slide.title}
-                </h1>
-                <p
-                  style={{
-                    fontSize: "2.5rem",
-                    marginBottom: "20px",
-                    lineHeight: "1.6",
-                  }}
-                >
-                  {slide.subtitle}
-                </p>
+                <h1 className="title">{slide.title}</h1>
+                <p className="subtitle">{slide.subtitle}</p>
                 <a
                   href={slide.link}
-                  style={{
-                    padding: "16px 30px",
-                    backgroundColor: "#00a5f5",
-                    color: "#fff",
-                    borderRadius: "25px",
-                    textDecoration: "none",
-                    fontSize: "2rem",
-                    fontWeight: "bold",
-                    transition: "background-color 0.3s ease",
-                  }}
+                  className="button"
                   onMouseEnter={(e) =>
                     (e.target.style.backgroundColor = "#007bb5")
                   }
@@ -220,37 +195,11 @@ function HomeBanner() {
 
               {/* Second Text Group */}
               <div>
-                <h1
-                  style={{
-                    fontSize: "4.5rem",
-                    marginBottom: "10px",
-                    color: "#fff",
-                    fontWeight: "bold",
-                  }}
-                >
-                  {slide.title2}
-                </h1>
-                <p
-                  style={{
-                    fontSize: "2.5rem",
-                    marginBottom: "20px",
-                    lineHeight: "1.6",
-                  }}
-                >
-                  {slide.subtitle2}
-                </p>
+                <h1 className="title">{slide.title2}</h1>
+                <p className="subtitle">{slide.subtitle2}</p>
                 <a
                   href={slide.link2}
-                  style={{
-                    padding: "16px 30px",
-                    backgroundColor: "#00a5f5",
-                    color: "#fff",
-                    borderRadius: "25px",
-                    textDecoration: "none",
-                    fontSize: "2rem",
-                    fontWeight: "bold",
-                    transition: "background-color 0.3s ease",
-                  }}
+                  className="button"
                   onMouseEnter={(e) =>
                     (e.target.style.backgroundColor = "#007bb5")
                   }
