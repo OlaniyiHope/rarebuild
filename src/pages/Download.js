@@ -29,26 +29,6 @@ const Download = () => {
   return (
     <>
       <body class="archive tax-product_cat term-book term-63 wp-custom-logo wp-embed-responsive theme-edublink woocommerce woocommerce-page woocommerce-no-js theme-name-edublink-child group-blog hfeed edublink-sticky-header-enable woocommerce woocommerce-active elementor-default elementor-kit-18">
-        <div class="edublink-page-title-area edublink-default-breadcrumb ">
-          <div class="edublink-container">
-            <div class="edublink-page-title">
-              <h1 class="entry-title">Resources</h1>
-            </div>
-            <div class="edublink-breadcrumb-wrapper">
-              <nav class="edublink-breadcrumb">
-                <ul class="breadcrumb">
-                  <li>
-                    <a href="../../index.html">Home</a>{" "}
-                  </li>{" "}
-                  <li>
-                    <span class="active">Resources</span>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
-
         <div
           id="content"
           class="site-content"
