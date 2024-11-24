@@ -68,7 +68,7 @@ function Homer() {
     <div
       className="edublink-related-course-wrapper"
       style={{
-        backgroundColor: "ash", // Full-width background color
+        backgroundColor: "white", // Full-width background color
         width: "100%",
         margin: "0",
         padding: "30px 0", // Top and bottom padding for visual spacing
