@@ -23,7 +23,7 @@
   display: inline-flex; /* Ensures items are aligned horizontally */
   align-items: center; /* Vertical alignment of text and icon */
   justify-content: center; /* Center content inside the button */
-  padding: 0; /* Removes padding */
+  padding: 0 !; /* Removes padding */
   width: auto; /* Adjusts width dynamically to fit the content */
   background-color: #00a5f5;
   color: #fff;

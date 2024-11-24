@@ -125,15 +125,8 @@
 // import build from "./build.png";
 // import "./homebanner.css";
 
-// function HomeBanner() {
+// function Homer() {
 //   const slides = [
-//     {
-//       background: `url(${build})`,
-//       title: "Stay with God",
-//       subtitle: "",
-//       link: "/blog",
-//       buttonText: "Proclaiming the standard of God",
-//     },
 //     {
 //       background: `url(${build})`,
 //       title: "Stay with God",
@@ -200,115 +193,67 @@
 //   );
 // }
 
-// export default HomeBanner;
+// export default Homer;
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
-import build from "./build.png";
-import "./homebanner.css";
-const HomeBanner = () => {
-  const slides = [
-    {
-      background: `url(${build})`,
-      title: "Stay with God",
-      subtitle: "",
-      link: "/blog",
-      buttonText: "Proclaiming the standard of God",
-    },
-    {
-      background: `url(${build})`,
-      title: "Stay with God",
-      subtitle: "",
-      link: "/blog",
-      buttonText: "Proclaiming the standard of God",
-    },
-  ];
+import "./homer.css"; // Optional: Custom CSS for styling
 
+import build from "./blog.webp";
+import blogImage from "./blog.webp";
+
+const Homer = () => {
   return (
-    <div style={{ width: "100%", marginBottom: "50px" }}>
-      {/* Swiper Section */}
-      <Swiper
-        modules={[Autoplay, Pagination]}
-        autoplay={{ delay: 5000, disableOnInteraction: false }}
-        pagination={{ clickable: true }}
-        loop={true}
-        spaceBetween={0}
-        slidesPerView={1}
-      >
-        {slides.map((slide, index) => (
-          <SwiperSlide key={index}>
-            <div
-              style={{
-                backgroundImage: slide.background,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                height: "80vh",
-                width: "100%",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "center",
-                alignItems: "center",
-                color: "#fff",
-                textAlign: "center",
-                position: "relative",
-              }}
-            >
-              <h1
-                style={{ fontSize: "3rem", marginBottom: "10px" }}
-                className="title"
-              >
-                {slide.title}
-              </h1>
-              <p
-                style={{ fontSize: "1.2rem", marginBottom: "20px" }}
-                className="subtitle"
-              >
-                {slide.subtitle}
-              </p>
-              <a href={slide.link} className="button">
-                {slide.buttonText}
-              </a>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-
-      {/* Blog Banner Section 
+    <div>
+      {/* Main Banner 
       <div
+        className="banner"
         style={{
-          marginTop: "30px",
-          padding: "20px",
-          backgroundColor: "#f4f4f4",
-          borderRadius: "10px",
-          textAlign: "center",
+          backgroundImage: `url(${build})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: "80vh",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          color: "#fff",
         }}
       >
-        <h2 style={{ fontSize: "2rem", marginBottom: "10px" }}>
-          Responding to God
-        </h2>
-        <p style={{ fontSize: "1rem", color: "#666" }}>
-          Samson Adeosun | Faith | 04.09.2024
-        </p>
-        <a
-          href="/about"
-          style={{
-            marginTop: "20px",
-            display: "inline-block",
-            padding: "10px 20px",
-            borderRadius: "50px",
-            backgroundColor: "#000",
-            color: "#fff",
-            textDecoration: "none",
-            fontSize: "1rem",
-          }}
-        >
-          Read Full Article
-        </a>
+        <div style={{ textAlign: "center" }}>
+          <h1>Stay with God</h1>
+          <p>Proclaiming the standard of God</p>
+          <a href="/blog" className="button">
+            Explore Resources
+          </a>
+        </div>
       </div>*/}
+
+      {/* Blog Banner */}
+      {/* Blog Banner */}
+      <div className="blog-banner">
+        {/* Image Section */}
+        <div className="blog-banner-image">
+          <img
+            src={blogImage}
+            alt="Latest Blog"
+            style={{
+              width: "100%",
+              height: "auto",
+              borderRadius: "10px",
+              objectFit: "cover",
+            }}
+          />
+        </div>
+
+        {/* Text Section */}
+        <div className="blog-banner-text">
+          <h2>Responding to God</h2>
+          <p>Samson Adeosun | Faith | 04.09.2024</p>
+          <a href="/about" className="button">
+            Read Full Article
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default HomeBanner;
+export default Homer;

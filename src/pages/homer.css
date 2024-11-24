@@ -1,0 +1,76 @@
+/* 
+.banner .button,
+.blog-banner .button {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.banner .button:hover,
+.blog-banner .button:hover {
+  background-color: #007bff !important;
+}
+
+.blog-banner img {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} */
+/* General Styling */
+.blog-banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  width: 100%;
+}
+
+.blog-banner-image {
+  flex: 1 1 50%; /* Takes 50% of width on larger screens */
+  display: flex;
+  justify-content: center;
+}
+
+.blog-banner-text {
+  flex: 1 1 50%; /* Takes 50% of width on larger screens */
+  color: #333;
+  padding: 20px;
+}
+
+.blog-banner .button {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.blog-banner .button:hover {
+  background-color: #0056b3 !important;
+}
+
+.blog-banner img {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .blog-banner {
+    flex-direction: column; /* Stack items vertically */
+    gap: 10px; /* Reduce gap between items */
+  }
+
+  .blog-banner-image,
+  .blog-banner-text {
+    flex: none; /* Prevent flexbox resizing */
+    width: 100%; /* Make elements full width */
+  }
+
+  .blog-banner-text {
+    text-align: center; /* Center-align text for better presentation */
+  }
+}

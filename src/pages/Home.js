@@ -17,6 +17,7 @@ import Builder from "./Builder";
 import Carousel from "./Carousel";
 import Footers from "./Footers";
 import HomeBanner from "./HomeBanner";
+import Homer from "./Homer";
 
 const Home = () => {
   return (
@@ -236,6 +237,7 @@ const Home = () => {
                             </div>
                           </section>*/}
                           <HomeBanner />
+                          <Homer />
                         </div>
                       </div>
                     </article>
