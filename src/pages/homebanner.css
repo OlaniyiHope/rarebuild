@@ -19,9 +19,12 @@
   margin-bottom: 20px;
   line-height: 1.6;
 }
-
 .button {
-  padding: 12px 25px;
+  display: inline-flex; /* Ensures items are aligned horizontally */
+  align-items: center; /* Vertical alignment of text and icon */
+  justify-content: center; /* Center content inside the button */
+  padding: 0; /* Removes padding */
+  width: auto; /* Adjusts width dynamically to fit the content */
   background-color: #00a5f5;
   color: #fff;
   border-radius: 70px !important;
@@ -29,10 +32,33 @@
   font-size: 1.5rem;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  white-space: nowrap; /* Prevents wrapping of text and icon */
 }
 
 .button:hover {
   background-color: #007bb5;
+}
+
+.button-icon {
+  margin-left: 10px; /* Space between text and icon */
+  font-size: 1.2rem; /* Adjust icon size to match text */
+  vertical-align: middle; /* Align the icon vertically to the text */
+  background-color: black; /* Icon background */
+  color: white; /* Icon color */
+  padding: 5px; /* Padding for the circular look */
+  border-radius: 50%; /* Makes the icon circular */
+  line-height: 1; /* Prevents line-height inconsistencies */
+}
+
+@media (max-width: 480px) {
+  .button {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+
+  .button-icon {
+    font-size: 1rem; /* Adjust icon size for smaller screens */
+    margin-left: 5px; /* Reduce spacing for smaller screens */
+  }
 }
 
 /* Responsive Styles */

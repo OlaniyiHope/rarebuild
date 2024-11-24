@@ -119,6 +119,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
 import build from "./build.png";
 import "./homebanner.css";
 
@@ -127,9 +130,9 @@ function HomeBanner() {
     {
       background: `url(${build})`,
       title: "Stay with God",
-      subtitle: "Proclaiming the standard of God",
+      subtitle: "",
       link: "/blog",
-      buttonText: "Explore Resources",
+      buttonText: "Proclaiming the standard of God",
       title2: "Responding to God",
       subtitle2: "Samson Adeosun | Faith | 04.09.202",
       link2: "/about",
@@ -137,14 +140,14 @@ function HomeBanner() {
     },
     {
       background: `url(${build})`,
-      title: "Responding to God",
-      subtitle: "Samson Adeosun | Faith | 04.09.202",
-      link: "/contact",
-      buttonText: "Read Full Article",
-      title2: "Stay with God",
-      subtitle2: "Proclaiming the standard of God",
-      link2: "/blog",
-      buttonText2: "Explore Resources",
+      title: "Stay with God",
+      subtitle: "",
+      link: "/blog",
+      buttonText: "Proclaiming the standard of God",
+      title2: "Responding to God",
+      subtitle2: "Samson Adeosun | Faith | 04.09.202",
+      link2: "/about",
+      buttonText2: "Read Full Article",
     },
   ];
 
@@ -178,7 +181,6 @@ function HomeBanner() {
               {/* First Text Group */}
               <div style={{ marginBottom: "40px" }}>
                 <h1 className="title">{slide.title}</h1>
-                <p className="subtitle">{slide.subtitle}</p>
                 <a
                   href={slide.link}
                   className="button"
@@ -190,6 +192,10 @@ function HomeBanner() {
                   }
                 >
                   {slide.buttonText}
+                  <FontAwesomeIcon
+                    icon={faArrowRight}
+                    className="button-icon"
+                  />
                 </a>
               </div>
 
@@ -198,7 +204,6 @@ function HomeBanner() {
                 <h1 className="title">{slide.title2}</h1>
                 <p className="subtitle">{slide.subtitle2}</p>
                 <a
-                  href={slide.link2}
                   className="button"
                   onMouseEnter={(e) =>
                     (e.target.style.backgroundColor = "#007bb5")
@@ -207,7 +212,11 @@ function HomeBanner() {
                     (e.target.style.backgroundColor = "#00a5f5")
                   }
                 >
-                  {slide.buttonText2}
+                  {slide.buttonText2}{" "}
+                  <FontAwesomeIcon
+                    icon={faArrowRight}
+                    className="button-icon"
+                  />
                 </a>
               </div>
             </div>
