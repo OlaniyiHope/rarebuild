@@ -16,25 +16,6 @@ const Blog = () => {
   return (
     <>
       <body class="blog paged wp-custom-logo wp-embed-responsive paged-2 theme-edublink woocommerce-no-js theme-name-edublink-child group-blog hfeed edublink-sticky-header-enable woocommerce woocommerce-active elementor-default elementor-kit-18">
-        <div class="edublink-page-title-area edublink-default-breadcrumb ">
-          <div class="edublink-container">
-            <div class="edublink-page-title">
-              <h1 class="entry-title">Blog</h1>
-            </div>
-            <div class="edublink-breadcrumb-wrapper">
-              <nav class="edublink-breadcrumb">
-                <ul class="breadcrumb">
-                  <li>
-                    <a href="https://demo.edublink.co/">Home</a>
-                  </li>{" "}
-                  <li>
-                    <span class="active">Blog</span>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
         <div
           id="content"
           class="site-content"
@@ -333,6 +314,7 @@ const Blog = () => {
                   </nav>*/}
                 </main>
               </div>
+
               <NewsSwipe />
               {/*<aside
                 id="secondary"

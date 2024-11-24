@@ -94,7 +94,7 @@ function NewsSwipe() {
 
   return (
     <div className="container">
-      <h3 className="section-title"></h3>
+      <h3 className="section-title">News</h3>
 
       <div className="swiper-container">
         <Swiper
