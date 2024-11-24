@@ -113,6 +113,7 @@ function CareerSwipe() {
             768: { slidesPerView: 2 }, // For tablets and small screens
             1024: { slidesPerView: 2 }, // For large screens and above
           }}
+          loop
           onSlideChange={handleSlideChange}
           keyBoardControl
           itemClass="carousel-item-padding-40-px"
