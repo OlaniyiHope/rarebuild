@@ -212,17 +212,17 @@ const HomeBanner = () => {
   const slides = [
     {
       background: `url(${build})`,
-      title: "Stay with God",
-      subtitle: "",
-      link: "/blog",
-      buttonText: "Proclaiming the standard of God",
+      // title: "Stay with God",
+      // subtitle: "",
+      // link: "/blog",
+      // buttonText: "Proclaiming the standard of God",
     },
     {
       background: `url(${build})`,
-      title: "Stay with God",
-      subtitle: "",
-      link: "/blog",
-      buttonText: "Proclaiming the standard of God",
+      // title: "Stay with God",
+      // subtitle: "",
+      // link: "/blog",
+      // buttonText: "Proclaiming the standard of God",
     },
   ];
 
@@ -254,23 +254,7 @@ const HomeBanner = () => {
                 textAlign: "center",
                 position: "relative",
               }}
-            >
-              <h1
-                style={{ fontSize: "3rem", marginBottom: "10px" }}
-                className="title"
-              >
-                {slide.title}
-              </h1>
-              <p
-                style={{ fontSize: "1.2rem", marginBottom: "20px" }}
-                className="subtitle"
-              >
-                {slide.subtitle}
-              </p>
-              <a href={slide.link} className="button">
-                {slide.buttonText}
-              </a>
-            </div>
+            ></div>
           </SwiperSlide>
         ))}
       </Swiper>

@@ -18,7 +18,8 @@ import Carousel from "./Carousel";
 import Footers from "./Footers";
 import HomeBanner from "./HomeBanner";
 import Homer from "./Homer";
-
+import Homes from "./Homes";
+import img from "./build.png";
 const Home = () => {
   return (
     <>
@@ -42,6 +43,12 @@ const Home = () => {
                           data-elementor-type="wp-page"
                           data-elementor-id="13480"
                           class="elementor elementor-13480"
+                          style={{
+                            backgroundImage: `url(${img})`, // Use the imported image here
+                            backgroundSize: "cover",
+                            backgroundRepeat: "no-repeat",
+                            backgroundPosition: "center",
+                          }}
                         >
                           {/*} <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-dbcab9a elementor-section-full_width elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle"
@@ -236,6 +243,7 @@ const Home = () => {
                               </div>
                             </div>
                           </section>*/}
+                          <Homes />
                           <HomeBanner />
                           <Homer />
                         </div>
