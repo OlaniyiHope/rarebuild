@@ -1,8 +1,9 @@
+.pep {
+  height: 400px !important; /* Default for larger screens */
+}
+
 @media (max-width: 600px) {
   .pep {
-    height: 200px !important;
+    height: 250px !important; /* Overrides on mobile with more specific rule */
   }
-}
-.pep {
-  height: 400px !important;
 }
