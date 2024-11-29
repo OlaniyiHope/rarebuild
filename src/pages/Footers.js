@@ -224,7 +224,7 @@ const Footers = () => {
                     >
                       <div class="elementor-widget-container">
                         <p>
-                          rarebuidinternational<br></br>@gmail.com
+                          rarebuildinternational<br></br>@gmail.com
                           <br></br>info@rarebuild.org
                         </p>{" "}
                       </div>
@@ -256,10 +256,7 @@ const Footers = () => {
                       data-widget_type="text-editor.default"
                     >
                       <div class="elementor-widget-container">
-                        <p>
-                          +234 909 770 0223
-                          <br></br>+234 909 233 3333
-                        </p>{" "}
+                        <p>+234 909 770 0223</p>{" "}
                       </div>
                     </div>
                   </div>
