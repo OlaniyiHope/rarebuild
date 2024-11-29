@@ -70,11 +70,12 @@ function Swipes() {
                   >
                     Finger Print Commission
                   </span>
-                  <h6 className="title">
-                    <a>
-                      Restoring the body of Christ to the desire and purpose of
-                      her Lord through spirit-enabled engagements
-                    </a>
+                  <h6
+                    className="title"
+                    style={{ color: "black", fontSize: "13px" }}
+                  >
+                    Restoring the body of Christ to the desire and purpose of
+                    her Lord through spirit-enabled engagements
                   </h6>
                 </div>
               </div>
@@ -104,11 +105,12 @@ function Swipes() {
                   >
                     The Shade Network
                   </span>
-                  <h6 className="title">
-                    <a>
-                      Restoring the body of Christ to the desire and purpose of
-                      her Lord through spirit-enabled engagements
-                    </a>
+                  <h6
+                    className="title"
+                    style={{ color: "black", fontSize: "13px" }}
+                  >
+                    Restoring the body of Christ to the desire and purpose of
+                    her Lord through spirit-enabled engagements
                   </h6>
                 </div>
               </div>
@@ -138,11 +140,12 @@ function Swipes() {
                   >
                     Lebana Academy
                   </span>
-                  <h6 className="title">
-                    <a>
-                      Restoring the body of Christ to the desire and purpose of
-                      her Lord through spirit-enabled engagements
-                    </a>
+                  <h6
+                    className="title"
+                    style={{ color: "black", fontSize: "13px" }}
+                  >
+                    Restoring the body of Christ to the desire and purpose of
+                    her Lord through spirit-enabled engagements
                   </h6>
                 </div>
               </div>
@@ -172,11 +175,12 @@ function Swipes() {
                   >
                     Finger Print Commission
                   </span>
-                  <h6 className="title">
-                    <a>
-                      Restoring the body of Christ to the desire and purpose of
-                      her Lord through spirit-enabled engagements
-                    </a>
+                  <h6
+                    className="title"
+                    style={{ color: "black", fontSize: "13px" }}
+                  >
+                    Restoring the body of Christ to the desire and purpose of
+                    her Lord through spirit-enabled engagements
                   </h6>
                 </div>
               </div>
