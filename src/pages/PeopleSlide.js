@@ -108,7 +108,14 @@ function PeopleSlide() {
               <div
                 className="edublink-single-course course-style-1"
                 onClick={() => setSelectedPerson(person)} // Set selected person on click
-                style={{ cursor: "pointer" }}
+                style={{
+                  cursor: "pointer",
+                  filter:
+                    selectedPerson.id === person.id
+                      ? "none"
+                      : "brightness(30%)", // Darken non-selected images
+                  transition: "filter 0.3s ease", // Smooth transition
+                }}
               >
                 <div className="inner">
                   <div className="thumbnail">

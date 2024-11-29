@@ -131,7 +131,14 @@ function CareerSwipe() {
             <SwiperSlide key={person.id}>
               <div
                 className="edublink-single-course course-style-1"
-                style={{ cursor: "pointer" }}
+                style={{
+                  cursor: "pointer",
+                  filter:
+                    selectedPerson.id === person.id
+                      ? "none"
+                      : "brightness(30%)", // Darken non-selected images
+                  transition: "filter 0.3s ease", // Smooth transition
+                }}
                 onClick={() => setSelectedPerson(person)}
               >
                 <div className="inner">
