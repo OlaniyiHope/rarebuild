@@ -364,32 +364,89 @@ const Register = () => {
                                                           }}
                                                         >
                                                           <div
-                                                            class="elementor-element elementor-element-5a24098 elementor-widget elementor-widget-heading"
-                                                            data-id="5a24098"
-                                                            data-element_type="widget"
-                                                            data-widget_type="heading.default"
-                                                          >
-                                                            <div class="elementor-widget-container">
-                                                              <h5 class="elementor-heading-title elementor-size-default">
-                                                                Lebana
-                                                                Foundation Life
-                                                                Program(LFP)
-                                                              </h5>{" "}
-                                                            </div>
-                                                          </div>
-                                                          <div
                                                             class="elementor-element elementor-element-3e24b46 elementor-widget elementor-widget-text-editor"
                                                             data-id="3e24b46"
                                                             data-element_type="widget"
                                                             data-widget_type="text-editor.default"
                                                           >
                                                             <div class="elementor-widget-container">
-                                                              <p>
+                                                              <h5>
                                                                 Personal
                                                                 Assessment Form
-                                                              </p>{" "}
+                                                              </h5>{" "}
                                                             </div>
                                                           </div>
+                                                          <div
+                                                            className="elementor-element elementor-element-5a24098 elementor-widget elementor-widget-heading"
+                                                            data-id="5a24098"
+                                                            data-element_type="widget"
+                                                            data-widget_type="heading.default"
+                                                          >
+                                                            <div className="elementor-widget-container">
+                                                              <label
+                                                                htmlFor="program-select"
+                                                                style={{
+                                                                  fontWeight:
+                                                                    "bold",
+                                                                  marginBottom:
+                                                                    "8px",
+                                                                  display:
+                                                                    "block",
+                                                                }}
+                                                              >
+                                                                Select a
+                                                                Program:
+                                                              </label>
+                                                              <select
+                                                                id="program-select"
+                                                                className="wpcf7-form-control wpcf7-select edublink-contact-form-field"
+                                                                style={{
+                                                                  width: "100%",
+                                                                }}
+                                                                value={
+                                                                  formData.program
+                                                                } // Controlled input tied to React state
+                                                                onChange={(e) =>
+                                                                  setFormData({
+                                                                    ...formData,
+                                                                    program:
+                                                                      e.target
+                                                                        .value, // Update selected program in state
+                                                                  })
+                                                                }
+                                                              >
+                                                                <option
+                                                                  value=""
+                                                                  disabled
+                                                                >
+                                                                  -- Choose a
+                                                                  Program --
+                                                                </option>
+                                                                <option value="lfp">
+                                                                  Lebana
+                                                                  Foundation
+                                                                  Life Program
+                                                                  (LFP)
+                                                                </option>
+                                                                <option value="hecp">
+                                                                  Higher
+                                                                  Education
+                                                                  Completion
+                                                                  Program (HECP)
+                                                                </option>
+                                                                <option value="ysdp">
+                                                                  Youth Skill
+                                                                  Development
+                                                                  Program (YSDP)
+                                                                </option>
+                                                                <option value="bwp">
+                                                                  Basic Wellness
+                                                                  Program (BWP)
+                                                                </option>
+                                                              </select>
+                                                            </div>
+                                                          </div>
+
                                                           <div
                                                             class="elementor-element elementor-element-43b0ae4 elementor-widget elementor-widget-edublink-contact-form-seven"
                                                             data-id="43b0ae4"
@@ -719,6 +776,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0",
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -759,6 +817,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0",
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -1098,7 +1157,8 @@ const Register = () => {
                                                                                     alignItems:
                                                                                       "center",
                                                                                     marginBottom:
-                                                                                      "0", // Remove extra space below each label
+                                                                                      "0",
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1138,6 +1198,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1177,6 +1238,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1220,6 +1282,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1289,6 +1352,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1328,6 +1392,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1367,6 +1432,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1406,6 +1472,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1476,6 +1543,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1515,6 +1583,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1555,6 +1624,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1594,6 +1664,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1633,6 +1704,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1705,6 +1777,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1744,6 +1817,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1783,6 +1857,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -1822,6 +1897,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -2094,6 +2170,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2136,6 +2213,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2176,6 +2254,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2216,6 +2295,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2258,6 +2338,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2330,6 +2411,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2368,6 +2450,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2406,6 +2489,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2444,6 +2528,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2485,6 +2570,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2552,6 +2638,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2590,6 +2677,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2628,6 +2716,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2666,6 +2755,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2707,6 +2797,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2774,6 +2865,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2814,6 +2906,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2854,6 +2947,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2894,6 +2988,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -2934,6 +3029,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -3004,6 +3100,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -3043,6 +3140,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -3082,6 +3180,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -3121,6 +3220,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -3163,6 +3263,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -3230,6 +3331,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -3269,6 +3371,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -3309,6 +3412,7 @@ const Register = () => {
                                                                                     "center",
                                                                                   marginBottom:
                                                                                     "0", // Remove extra space below each label
+                                                                                  gap: "8px",
                                                                                 }}
                                                                               >
                                                                                 <input
@@ -3561,6 +3665,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -3600,6 +3705,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -3639,6 +3745,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -3678,6 +3785,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -3720,6 +3828,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -3790,6 +3899,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -3831,6 +3941,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -3872,6 +3983,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -3913,6 +4025,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -3956,6 +4069,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4026,6 +4140,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4064,6 +4179,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4102,6 +4218,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4140,6 +4257,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4181,6 +4299,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4269,6 +4388,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4308,6 +4428,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4347,6 +4468,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4386,6 +4508,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4428,6 +4551,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4716,6 +4840,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4755,6 +4880,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4794,6 +4920,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4833,6 +4960,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4875,6 +5003,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4942,6 +5071,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -4981,6 +5111,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5020,6 +5151,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5059,6 +5191,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5101,6 +5234,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5172,6 +5306,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5210,6 +5345,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5248,6 +5384,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5286,6 +5423,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5327,6 +5465,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5397,6 +5536,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5430,7 +5570,7 @@ const Register = () => {
                                                                                   I
                                                                                   am
                                                                                   already
-                                                                                  offereing
+                                                                                  offering
                                                                                   it
                                                                                   to
                                                                                   them
@@ -5443,6 +5583,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5491,6 +5632,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5536,6 +5678,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5581,6 +5724,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5653,6 +5797,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5692,6 +5837,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5731,6 +5877,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5770,6 +5917,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -5812,6 +5960,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6070,6 +6219,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6109,6 +6259,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6148,6 +6299,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6187,6 +6339,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6229,6 +6382,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6272,7 +6426,7 @@ const Register = () => {
                                                                               className="wpcf7-form-control-wrap"
                                                                               data-name="text-245"
                                                                             >
-                                                                              IF
+                                                                              If
                                                                               yes,
                                                                               what
                                                                               is
@@ -6300,6 +6454,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6340,6 +6495,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6381,6 +6537,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6422,6 +6579,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6463,6 +6621,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6504,6 +6663,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6574,6 +6734,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6613,6 +6774,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6652,6 +6814,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6691,6 +6854,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6733,6 +6897,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6841,6 +7006,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6880,6 +7046,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6919,6 +7086,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -6958,6 +7126,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -7000,6 +7169,7 @@ const Register = () => {
                                                                                       "center",
                                                                                     marginBottom:
                                                                                       "0", // Remove extra space below each label
+                                                                                    gap: "8px",
                                                                                   }}
                                                                                 >
                                                                                   <input
@@ -7243,6 +7413,7 @@ const Register = () => {
                                                                             "center",
                                                                           marginBottom:
                                                                             "0", // Remove extra space below each label
+                                                                          gap: "8px",
                                                                         }}
                                                                       >
                                                                         <input
@@ -7282,6 +7453,7 @@ const Register = () => {
                                                                             "center",
                                                                           marginBottom:
                                                                             "0", // Remove extra space below each label
+                                                                          gap: "8px",
                                                                         }}
                                                                       >
                                                                         <input

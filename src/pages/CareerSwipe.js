@@ -81,15 +81,23 @@ function CareerSwipe() {
   const [selectedPerson, setSelectedPerson] = useState(people[0]);
   const swiperRef = useRef(null);
 
+  // const handleTabClick = (person) => {
+  //   setSelectedPerson(person);
+  //   if (swiperRef.current) {
+  //     swiperRef.current.swiper.slideTo(person.id - 1); // Update the swiper slide
+  //   }
+  // };
+
   const handleTabClick = (person) => {
     setSelectedPerson(person);
     if (swiperRef.current) {
-      swiperRef.current.swiper.slideTo(person.id - 1); // Update the swiper slide
+      swiperRef.current.swiper.slideTo(person.id - 1); // Sync Swiper with the tab
     }
   };
 
   const handleSlideChange = (swiper) => {
-    setSelectedPerson(people[swiper.realIndex]);
+    const activePerson = people[swiper.realIndex];
+    setSelectedPerson(activePerson); // Match the slide to the tab
   };
 
   return (
@@ -166,7 +174,7 @@ function CareerSwipe() {
         {people.map((person) => (
           <li
             key={person.id}
-            onClick={() => handleTabClick(person)}
+            onClick={(event) => handleTabClick(person, event)}
             className={selectedPerson.id === person.id ? "active-tab" : ""}
           >
             {person.name}
