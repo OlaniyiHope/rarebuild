@@ -297,7 +297,7 @@ function Swipe() {
   };
 
   return (
-    <div className="container">
+    <div className="container" style={{ marginTop: "20px" }}>
       <div className="swiper-container">
         <Swiper
           ref={swiperRef}
