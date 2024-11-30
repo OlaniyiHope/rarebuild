@@ -153,9 +153,9 @@ const Register = () => {
                     id="learn-press-course"
                     class="course-summary edublink-col-lg-12"
                   >
-                    <div class="eb-course-details-page-content">
-                      <div class="course-content course-summary-content">
-                        <div id="learn-press-course-tabs" class="course-tabs">
+                    <div class="eb-course-details-page-content ">
+                      <div class="course-content course-summary-content ">
+                        <div id="learn-press-course-tabs" class="course-tabs ">
                           <input
                             type="radio"
                             name="learn-press-course-tab-radio"
@@ -291,7 +291,7 @@ const Register = () => {
                             </li>
                           </ul>
 
-                          <div class="course-tab-panels">
+                          <div class="course-tab-panels wid">
                             {currentPage === 0 && (
                               <div
                                 class="course-tab-panel-overview course-tab-panel"
@@ -358,7 +358,7 @@ const Register = () => {
                                                           style={{
                                                             backgroundColor:
                                                               "white",
-                                                            padding: "50px",
+
                                                             borderRadius:
                                                               "10px",
                                                           }}
@@ -402,6 +402,10 @@ const Register = () => {
                                                                 className="wpcf7-form-control wpcf7-select edublink-contact-form-field"
                                                                 style={{
                                                                   width: "100%",
+                                                                  border:
+                                                                    "none",
+                                                                  borderBottom:
+                                                                    "1px solid #e5e5e5",
                                                                 }}
                                                                 value={
                                                                   formData.program
@@ -1025,7 +1029,7 @@ const Register = () => {
                                                           style={{
                                                             backgroundColor:
                                                               "white",
-                                                            padding: "50px",
+
                                                             borderRadius:
                                                               "10px",
                                                           }}
@@ -2032,7 +2036,7 @@ const Register = () => {
                                                         style={{
                                                           backgroundColor:
                                                             "white",
-                                                          padding: "50px",
+
                                                           borderRadius: "10px",
                                                         }}
                                                       >
@@ -3547,7 +3551,7 @@ const Register = () => {
                                                           style={{
                                                             backgroundColor:
                                                               "white",
-                                                            padding: "50px",
+
                                                             borderRadius:
                                                               "10px",
                                                           }}
@@ -4723,7 +4727,7 @@ const Register = () => {
                                                           style={{
                                                             backgroundColor:
                                                               "white",
-                                                            padding: "50px",
+
                                                             borderRadius:
                                                               "10px",
                                                           }}
@@ -6095,7 +6099,7 @@ const Register = () => {
                                                           style={{
                                                             backgroundColor:
                                                               "white",
-                                                            padding: "50px",
+
                                                             borderRadius:
                                                               "10px",
                                                           }}
@@ -7305,7 +7309,7 @@ const Register = () => {
                                                           style={{
                                                             backgroundColor:
                                                               "white",
-                                                            padding: "50px",
+
                                                             borderRadius:
                                                               "10px",
                                                           }}
