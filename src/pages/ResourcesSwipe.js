@@ -82,18 +82,17 @@ function ResourcesSwipe() {
   const swiperRef = useRef(null);
 
   const handleTabClick = (person) => {
-    console.log("Clicked Tab:", person);
     setSelectedPerson(person);
-    if (swiperRef.current) {
-      swiperRef.current.swiper.slideTo(person.id - 1); // Update the swiper slide
+    if (swiperRef.current && swiperRef.current.swiper) {
+      const targetIndex = people.findIndex((p) => p.id === person.id); // Get index of selected person
+      swiperRef.current.swiper.slideToLoop(targetIndex); // Use slideToLoop to handle loop mode
     }
   };
+
   const handleSlideChange = (swiper) => {
-    const index = swiper.realIndex ?? swiper.activeIndex;
-    console.log("Slide Changed to Index:", index); // Debugging
-    if (index !== undefined) {
-      setSelectedPerson(people[index]);
-    }
+    const realIndex = swiper.realIndex; // Get real index ignoring cloned slides
+    const activePerson = people[realIndex];
+    if (activePerson) setSelectedPerson(activePerson);
   };
 
   return (

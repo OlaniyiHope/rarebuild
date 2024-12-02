@@ -82,13 +82,16 @@ function NewsSwipe() {
 
   const handleTabClick = (person) => {
     setSelectedPerson(person);
-    if (swiperRef.current) {
-      swiperRef.current.swiper.slideTo(person.id - 1); // Update the swiper slide
+    if (swiperRef.current && swiperRef.current.swiper) {
+      const targetIndex = people.findIndex((p) => p.id === person.id); // Get index of selected person
+      swiperRef.current.swiper.slideToLoop(targetIndex); // Use slideToLoop to handle loop mode
     }
   };
 
   const handleSlideChange = (swiper) => {
-    setSelectedPerson(people[swiper.realIndex]);
+    const realIndex = swiper.realIndex; // Get real index ignoring cloned slides
+    const activePerson = people[realIndex];
+    if (activePerson) setSelectedPerson(activePerson);
   };
   // Array of people data
 

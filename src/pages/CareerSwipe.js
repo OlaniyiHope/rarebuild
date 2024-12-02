@@ -90,14 +90,16 @@ function CareerSwipe() {
 
   const handleTabClick = (person) => {
     setSelectedPerson(person);
-    if (swiperRef.current) {
-      swiperRef.current.swiper.slideTo(person.id - 1); // Sync Swiper with the tab
+    if (swiperRef.current && swiperRef.current.swiper) {
+      const targetIndex = people.findIndex((p) => p.id === person.id); // Get index of selected person
+      swiperRef.current.swiper.slideToLoop(targetIndex); // Use slideToLoop to handle loop mode
     }
   };
 
   const handleSlideChange = (swiper) => {
-    const activePerson = people[swiper.realIndex];
-    setSelectedPerson(activePerson); // Match the slide to the tab
+    const realIndex = swiper.realIndex; // Get real index ignoring cloned slides
+    const activePerson = people[realIndex];
+    if (activePerson) setSelectedPerson(activePerson);
   };
 
   return (
