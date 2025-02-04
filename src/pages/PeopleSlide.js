@@ -188,6 +188,7 @@ function PeopleSlide() {
         >
           Pastor Adeniyi Adekunle
         </p>
+
         <p
           style={{
             fontSize: "20px",

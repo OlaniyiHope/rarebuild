@@ -97,7 +97,7 @@ function Homer() {
             onMouseEnter={(e) => (e.target.style.backgroundColor = "#007bb5")}
             onMouseLeave={(e) => (e.target.style.backgroundColor = "#00a5f5")}
           >
-            Read full article
+            Proclaiming the standard of God
             <FontAwesomeIcon icon={faArrowRight} className="button-icon" />
           </a>
         </div>

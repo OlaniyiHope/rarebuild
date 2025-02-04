@@ -25,6 +25,7 @@ import Shade from "./pages/Shade";
 import Register from "./pages/Register";
 import About2 from "./pages/About2";
 import People from "./pages/People";
+import Onboard from "./pages/Onboard";
 
 const App = () => {
   return (
@@ -47,6 +48,10 @@ const App = () => {
           <Route path="/career" element={<Career />} />
           <Route path="/apply" element={<Register />} />
           <Route path="/people" element={<People />} />
+          <Route
+            path="/fingerprint-commission-registration"
+            element={<Onboard />}
+          />
 
           <Route path="/" element={<Login />} />
         </Routes>
