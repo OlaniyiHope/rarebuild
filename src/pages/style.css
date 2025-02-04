@@ -136,7 +136,7 @@
   .wid {
     width: 100% !important; /* Ensure full width */
     margin: 0 !important; /* Remove any centering margin */
-    padding: 0 10px; /* Optional: Add padding for better mobile readability */
+
     box-sizing: border-box; /* Include padding/borders in width */
   }
   /* .custom-prev,
