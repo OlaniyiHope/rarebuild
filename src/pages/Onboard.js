@@ -13,16 +13,25 @@ import Header from "./Header";
 import Footers from "./Footers";
 const Onboard = () => {
   const [formData, setFormData] = useState({
-    generalInfo: "",
-    work: "",
-    skills: "",
-    problems: "",
-    value: "",
-    plan: "",
-    admin: "",
+    fullname: "",
+    email: "",
+    phone: "",
+    country: "",
+    state: "",
+    denomination: "",
+    position: "",
+    referred: "",
+    who: "",
+    yourself: "",
+    received: "",
+    when: "",
+    done: "",
+    enough: "",
+    area: "",
   });
 
   const [currentPage, setCurrentPage] = useState(0);
+  const apiUrl = process.env.REACT_APP_API_URL;
 
   const handleInputChange = (e) => {
     setFormData({
@@ -30,13 +39,6 @@ const Onboard = () => {
       [e.target.name]: e.target.value,
     });
   };
-
-  // const handleNext = () => {
-  //   console.log("Current Page Before:", currentPage); // Log current page
-  //   setCurrentPage(currentPage + 1);
-  //   console.log("Current Page After:", currentPage + 1); // Log updated page
-  //   // Save form data to the backend here if saving page by page
-  // };
 
   const handleNext = async () => {
     // Save data before moving to the next step
@@ -51,7 +53,7 @@ const Onboard = () => {
 
   const handleNextStep = async () => {
     try {
-      const response = await fetch("http://localhost:8000/api/save-step", {
+      const response = await fetch("http://localhost:8000/api/save-finger", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -59,21 +61,23 @@ const Onboard = () => {
         body: JSON.stringify({
           currentPage: currentPage, // Use currentPage here
           formData: {
+            fullname: formData.fullname,
             email: formData.email,
             phone: formData.phone,
-            firstName: formData.firstName,
-            surName: formData.surName,
-            address: formData.address,
-            expectations: formData.expectations,
-            occupation: formData.occupation,
-            attendanceResponse: formData.attendanceResponse,
-            typicalDay: formData.typicalDay,
+            country: formData.country,
+            state: formData.state,
+            denomination: formData.denomination,
+            position: formData.position,
+            referred: formData.referred,
+            who: formData.who,
 
             //next step
-            doing: formData.doing,
-            anyway: formData.anyway,
-            howgood: formData.howgood,
-            interested: formData.interested,
+            yourself: formData.yourself,
+            received: formData.received,
+            when: formData.when,
+            done: formData.done,
+            enough: formData.enough,
+            area: formData.area,
           },
         }),
       });
@@ -328,7 +332,7 @@ const Onboard = () => {
                                                                                   setFormData(
                                                                                     {
                                                                                       ...formData,
-                                                                                      firstName:
+                                                                                      fullname:
                                                                                         e
                                                                                           .target
                                                                                           .value,
@@ -432,7 +436,7 @@ const Onboard = () => {
                                                                                 "1px solid #e5e5e5",
                                                                             }}
                                                                             value={
-                                                                              formData.program
+                                                                              formData.country
                                                                             } // Controlled input tied to React state
                                                                             onChange={(
                                                                               e
@@ -440,7 +444,7 @@ const Onboard = () => {
                                                                               setFormData(
                                                                                 {
                                                                                   ...formData,
-                                                                                  program:
+                                                                                  country:
                                                                                     e
                                                                                       .target
                                                                                       .value, // Update selected program in state
@@ -455,17 +459,17 @@ const Onboard = () => {
                                                                               Country
                                                                               --
                                                                             </option>
-                                                                            <option value="lfp">
+                                                                            <option value="nigeria">
                                                                               Nigeria
                                                                             </option>
-                                                                            <option value="hecp">
+                                                                            <option value="ghana">
                                                                               Ghana
                                                                             </option>
-                                                                            <option value="ysdp">
+                                                                            <option value="southafrica">
                                                                               South
                                                                               Africa
                                                                             </option>
-                                                                            <option value="bwp">
+                                                                            <option value="togo">
                                                                               Togo
                                                                             </option>
                                                                           </select>
@@ -490,7 +494,7 @@ const Onboard = () => {
                                                                                 "1px solid #e5e5e5",
                                                                             }}
                                                                             value={
-                                                                              formData.program
+                                                                              formData.state
                                                                             } // Controlled input tied to React state
                                                                             onChange={(
                                                                               e
@@ -498,7 +502,7 @@ const Onboard = () => {
                                                                               setFormData(
                                                                                 {
                                                                                   ...formData,
-                                                                                  program:
+                                                                                  state:
                                                                                     e
                                                                                       .target
                                                                                       .value, // Update selected program in state
@@ -513,78 +517,57 @@ const Onboard = () => {
                                                                               State
                                                                               --
                                                                             </option>
-                                                                            <option value="lfp">
+                                                                            <option value="lagos">
                                                                               Lagos
                                                                             </option>
-                                                                            <option value="hecp">
+                                                                            <option value="kano">
                                                                               Kano
                                                                             </option>
-                                                                            <option value="ysdp">
+                                                                            <option value="portharcourt">
                                                                               Port
                                                                               Harcourt
                                                                             </option>
-                                                                            <option value="bwp">
+                                                                            <option value="oyo">
                                                                               Oyo
                                                                             </option>
                                                                           </select>
                                                                         </div>
                                                                       </div>
-                                                                      <div
-                                                                        className="elementor-element elementor-element-5a24098 elementor-widget elementor-widget-heading"
-                                                                        data-id="5a24098"
-                                                                        data-element_type="widget"
-                                                                        data-widget_type="heading.default"
-                                                                      >
-                                                                        <div className="elementor-widget-container">
-                                                                          <select
-                                                                            id="program-select"
-                                                                            className="wpcf7-form-control wpcf7-select edublink-contact-form-field"
-                                                                            style={{
-                                                                              width:
-                                                                                "100%",
-                                                                              border:
-                                                                                "none",
-                                                                              borderBottom:
-                                                                                "1px solid #e5e5e5",
-                                                                            }}
-                                                                            value={
-                                                                              formData.program
-                                                                            } // Controlled input tied to React state
-                                                                            onChange={(
-                                                                              e
-                                                                            ) =>
-                                                                              setFormData(
-                                                                                {
-                                                                                  ...formData,
-                                                                                  program:
-                                                                                    e
-                                                                                      .target
-                                                                                      .value, // Update selected program in state
-                                                                                }
-                                                                              )
-                                                                            }
-                                                                          >
-                                                                            <option value="">
-                                                                              --
-                                                                              Select
-                                                                              your
-                                                                              Domination
-                                                                              --
-                                                                            </option>
-                                                                            <option value="lfp">
-                                                                              Nigeria
-                                                                            </option>
-                                                                            <option value="hecp">
-                                                                              Ghana
-                                                                            </option>
-                                                                            <option value="ysdp">
-                                                                              South
-                                                                              Africa
-                                                                            </option>
-                                                                            <option value="bwp">
-                                                                              Togo
-                                                                            </option>
-                                                                          </select>
+
+                                                                      <div className="edublink-contact-form-single-item">
+                                                                        <div className="edublink-contact-form-single-item-content">
+                                                                          <p>
+                                                                            <span
+                                                                              className="wpcf7-form-control-wrap"
+                                                                              data-name="surname-447"
+                                                                            >
+                                                                              <input
+                                                                                size="40"
+                                                                                className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required edublink-contact-form-field"
+                                                                                aria-invalid="false"
+                                                                                placeholder="Denomination *"
+                                                                                type="text"
+                                                                                name="surname-447"
+                                                                                value={
+                                                                                  formData.denomination
+                                                                                } // Controlled input tied to React state
+                                                                                onChange={(
+                                                                                  e
+                                                                                ) =>
+                                                                                  setFormData(
+                                                                                    {
+                                                                                      ...formData,
+
+                                                                                      denomination:
+                                                                                        e
+                                                                                          .target
+                                                                                          .value,
+                                                                                    }
+                                                                                  )
+                                                                                } // Updates the surname field in state
+                                                                              />
+                                                                            </span>
+                                                                          </p>
                                                                         </div>
                                                                       </div>
 
@@ -611,7 +594,8 @@ const Onboard = () => {
                                                                                   setFormData(
                                                                                     {
                                                                                       ...formData,
-                                                                                      surName:
+
+                                                                                      position:
                                                                                         e
                                                                                           .target
                                                                                           .value,
@@ -640,7 +624,7 @@ const Onboard = () => {
                                                                                   "20px",
                                                                               }}
                                                                             >
-                                                                              Where
+                                                                              Were
                                                                               you
                                                                               Referred?
                                                                             </p>
@@ -666,7 +650,7 @@ const Onboard = () => {
                                                                               >
                                                                                 <input
                                                                                   type="radio"
-                                                                                  name="attendanceResponse" // Updated name for the group
+                                                                                  name="referred" // Updated name for the group
                                                                                   value="yes"
                                                                                   className="wpcf7-form-control wpcf7-radio edublink-contact-form-field"
                                                                                   style={{
@@ -674,7 +658,7 @@ const Onboard = () => {
                                                                                       "auto",
                                                                                   }}
                                                                                   checked={
-                                                                                    formData.attendanceResponse ===
+                                                                                    formData.referred ===
                                                                                     "yes"
                                                                                   } // Controlled input
                                                                                   onChange={(
@@ -683,7 +667,7 @@ const Onboard = () => {
                                                                                     setFormData(
                                                                                       {
                                                                                         ...formData,
-                                                                                        attendanceResponse:
+                                                                                        referred:
                                                                                           e
                                                                                             .target
                                                                                             .value,
@@ -707,7 +691,7 @@ const Onboard = () => {
                                                                               >
                                                                                 <input
                                                                                   type="radio"
-                                                                                  name="attendanceResponse" // Updated name for the group
+                                                                                  name="referred" // Updated name for the group
                                                                                   value="no"
                                                                                   className="wpcf7-form-control wpcf7-radio edublink-contact-form-field"
                                                                                   style={{
@@ -715,7 +699,7 @@ const Onboard = () => {
                                                                                       "auto",
                                                                                   }}
                                                                                   checked={
-                                                                                    formData.attendanceResponse ===
+                                                                                    formData.referred ===
                                                                                     "no"
                                                                                   } // Controlled input
                                                                                   onChange={(
@@ -724,7 +708,7 @@ const Onboard = () => {
                                                                                     setFormData(
                                                                                       {
                                                                                         ...formData,
-                                                                                        attendanceResponse:
+                                                                                        referred:
                                                                                           e
                                                                                             .target
                                                                                             .value,
@@ -752,7 +736,7 @@ const Onboard = () => {
                                                                                 aria-invalid="false"
                                                                                 placeholder="If Yes, by who?"
                                                                                 value={
-                                                                                  formData.occupation
+                                                                                  formData.who
                                                                                 } // Controlled input
                                                                                 type="text"
                                                                                 name="occupation" // Updated name for clarity
@@ -762,10 +746,9 @@ const Onboard = () => {
                                                                                   setFormData(
                                                                                     {
                                                                                       ...formData,
-                                                                                      occupation:
-                                                                                        e
-                                                                                          .target
-                                                                                          .value,
+                                                                                      who: e
+                                                                                        .target
+                                                                                        .value,
                                                                                     }
                                                                                   )
                                                                                 } // Update state on change
@@ -965,7 +948,7 @@ const Onboard = () => {
                                                                                 type="text"
                                                                                 name="surname-447"
                                                                                 value={
-                                                                                  formData.position
+                                                                                  formData.yourself
                                                                                 } // Controlled input tied to React state
                                                                                 onChange={(
                                                                                   e
@@ -973,7 +956,7 @@ const Onboard = () => {
                                                                                   setFormData(
                                                                                     {
                                                                                       ...formData,
-                                                                                      surName:
+                                                                                      yourself:
                                                                                         e
                                                                                           .target
                                                                                           .value,
@@ -1001,7 +984,7 @@ const Onboard = () => {
                                                                                 type="text"
                                                                                 name="surname-447"
                                                                                 value={
-                                                                                  formData.position
+                                                                                  formData.received
                                                                                 } // Controlled input tied to React state
                                                                                 onChange={(
                                                                                   e
@@ -1009,7 +992,7 @@ const Onboard = () => {
                                                                                   setFormData(
                                                                                     {
                                                                                       ...formData,
-                                                                                      surName:
+                                                                                      received:
                                                                                         e
                                                                                           .target
                                                                                           .value,
@@ -1036,7 +1019,7 @@ const Onboard = () => {
                                                                                 type="text"
                                                                                 name="surname-447"
                                                                                 value={
-                                                                                  formData.position
+                                                                                  formData.when
                                                                                 } // Controlled input tied to React state
                                                                                 onChange={(
                                                                                   e
@@ -1044,10 +1027,9 @@ const Onboard = () => {
                                                                                   setFormData(
                                                                                     {
                                                                                       ...formData,
-                                                                                      surName:
-                                                                                        e
-                                                                                          .target
-                                                                                          .value,
+                                                                                      when: e
+                                                                                        .target
+                                                                                        .value,
                                                                                     }
                                                                                   )
                                                                                 } // Updates the surname field in state
@@ -1071,7 +1053,7 @@ const Onboard = () => {
                                                                                 type="text"
                                                                                 name="surname-447"
                                                                                 value={
-                                                                                  formData.position
+                                                                                  formData.enough
                                                                                 } // Controlled input tied to React state
                                                                                 onChange={(
                                                                                   e
@@ -1079,7 +1061,7 @@ const Onboard = () => {
                                                                                   setFormData(
                                                                                     {
                                                                                       ...formData,
-                                                                                      surName:
+                                                                                      enough:
                                                                                         e
                                                                                           .target
                                                                                           .value,
@@ -1106,7 +1088,7 @@ const Onboard = () => {
                                                                                 type="text"
                                                                                 name="surname-447"
                                                                                 value={
-                                                                                  formData.position
+                                                                                  formData.done
                                                                                 } // Controlled input tied to React state
                                                                                 onChange={(
                                                                                   e
@@ -1114,10 +1096,9 @@ const Onboard = () => {
                                                                                   setFormData(
                                                                                     {
                                                                                       ...formData,
-                                                                                      surName:
-                                                                                        e
-                                                                                          .target
-                                                                                          .value,
+                                                                                      done: e
+                                                                                        .target
+                                                                                        .value,
                                                                                     }
                                                                                   )
                                                                                 } // Updates the surname field in state
@@ -1142,7 +1123,7 @@ const Onboard = () => {
                                                                                 type="text"
                                                                                 name="surname-447"
                                                                                 value={
-                                                                                  formData.position
+                                                                                  formData.area
                                                                                 } // Controlled input tied to React state
                                                                                 onChange={(
                                                                                   e
@@ -1150,10 +1131,9 @@ const Onboard = () => {
                                                                                   setFormData(
                                                                                     {
                                                                                       ...formData,
-                                                                                      surName:
-                                                                                        e
-                                                                                          .target
-                                                                                          .value,
+                                                                                      area: e
+                                                                                        .target
+                                                                                        .value,
                                                                                     }
                                                                                   )
                                                                                 } // Updates the surname field in state
