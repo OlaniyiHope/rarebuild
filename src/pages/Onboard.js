@@ -53,7 +53,7 @@ const Onboard = () => {
 
   const handleNextStep = async () => {
     try {
-      const response = await fetch("http://localhost:8000/api/save-finger", {
+      const response = await fetch(`${apiUrl}/api/save-finger`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
