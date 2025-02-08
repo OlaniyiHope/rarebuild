@@ -51,7 +51,7 @@ const Register = () => {
 
   const handleNextStep = async () => {
     try {
-      const response = await fetch("http://localhost:8000/api/save-step", {
+      const response = await fetch("http://localhost:8800/api/save-step", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -59,6 +59,7 @@ const Register = () => {
         body: JSON.stringify({
           currentPage: currentPage, // Use currentPage here
           formData: {
+            program: formData.program,
             email: formData.email,
             phone: formData.phone,
             firstName: formData.firstName,
@@ -426,24 +427,24 @@ const Register = () => {
                                                                   -- Choose a
                                                                   Program --
                                                                 </option>
-                                                                <option value="lfp">
+                                                                <option value="Lebana Foundation Program">
                                                                   Lebana
                                                                   Foundation
                                                                   Life Program
                                                                   (LFP)
                                                                 </option>
-                                                                <option value="hecp">
+                                                                <option value="Higher Education Completion Program">
                                                                   Higher
                                                                   Education
                                                                   Completion
                                                                   Program (HECP)
                                                                 </option>
-                                                                <option value="ysdp">
+                                                                <option value="Youth Skill Development Program">
                                                                   Youth Skill
                                                                   Development
                                                                   Program (YSDP)
                                                                 </option>
-                                                                <option value="bwp">
+                                                                <option value="Basic Wellness Program">
                                                                   Basic Wellness
                                                                   Program (BWP)
                                                                 </option>
