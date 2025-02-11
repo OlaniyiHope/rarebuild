@@ -34,7 +34,7 @@ const Shade = () => {
               data-settings='{"background_background":"classic","shape_divider_bottom":"tilt"}'
             >
               <h3 class="entry-title" style={{ textAlign: "center" }}>
-                About Us
+                The Shade
               </h3>
               <div class="elementor-container elementor-column-gap-no">
                 <div
@@ -51,62 +51,7 @@ const Shade = () => {
                     >
                       <div class="elementor-container elementor-column-gap-no">
                         <div
-                          class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-919723e"
-                          data-id="919723e"
-                          data-element_type="column"
-                        >
-                          <div class="elementor-widget-wrap elementor-element-populated">
-                            <div
-                              class="elementor-element elementor-element-5b44946  elementor-widget elementor-widget-edublink-icon-box"
-                              data-id="5b44946"
-                              data-element_type="widget"
-                              data-settings='{"_animation":"edublink--slide-up","_animation_delay":50}'
-                              data-widget_type="edublink-icon-box.default"
-                            >
-                              <div>
-                                <div class="edublink-icon-box-wrapper edublink-icon-box-icon edublink-icon-box-icon-position-top">
-                                  {/*}   <div class="edublink-icon-box-icon edublink-icon-box-enable">
-                <i
-                  aria-hidden="true"
-                  class="fas fa-bullseye"
-                ></i>
-              </div>*/}
-                                  <div class="edublink-icon-box-content">
-                                    {/*}  <h4 class="edublink-icon-box-title">
-                  Our Mission
-                </h4>*/}
-
-                                    <div class="edublink-icon-box-details">
-                                      <p
-                                        style={{
-                                          fontSize: "18px",
-                                          textAlign: "justify",
-                                          color: "black",
-                                        }}
-                                      >
-                                        We aim to provide a responsive,
-                                        imaginative and professional
-                                        architecture service tailored to the
-                                        aspiration of each of our client and to
-                                        deliver quality results regardless of
-                                        commission, size or type.
-                                        <br></br> We seek to develop a
-                                        sustainable and cost efficient design,
-                                        which speaks the language of global
-                                        architecture and fulfils the expectation
-                                        of building users by addressing their
-                                        identity , physical and socialogical
-                                        context
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>{" "}
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-041d259"
+                          class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-041d259"
                           data-id="041d259"
                           data-element_type="column"
                         >
@@ -138,19 +83,11 @@ const Shade = () => {
                                           color: "black",
                                         }}
                                       >
-                                        We aim to provide a responsive,
-                                        imaginative and professional
-                                        architecture service tailored to the
-                                        aspiration of each of our client and to
-                                        deliver quality results regardless of
-                                        commission, size or type.
-                                        <br></br> We seek to develop a
-                                        sustainable and cost efficient design,
-                                        which speaks the language of global
-                                        architecture and fulfils the expectation
-                                        of building users by addressing their
-                                        identity , physical and socialogical
-                                        context
+                                        The Shade is where all of the activities
+                                        of Rarebuild and other ministries take
+                                        place - live and digitally. The space
+                                        afford everyone who comes an opportunity
+                                        to genuinely meet with GOD.
                                       </p>
                                     </div>
                                   </div>
@@ -167,6 +104,7 @@ const Shade = () => {
             </section>
           </div>
         </div>
+
         <div
           class="edublink-page-title-area edublink-breadcrumb-style-1 edublink-breadcrumb-has-bg"
           style={{
@@ -307,23 +245,12 @@ const Shade = () => {
                                                       color: "black",
                                                     }}
                                                   >
-                                                    We aim to provide a
-                                                    responsive, imaginative and
-                                                    professional architecture
-                                                    service tailored to the
-                                                    aspiration of each of our
-                                                    client and to deliver
-                                                    quality results regardless
-                                                    of commission, size or type.
-                                                    <br></br> We seek to develop
-                                                    a sustainable and cost
-                                                    efficient design, which
-                                                    speaks the language of
-                                                    global architecture and
-                                                    fulfils the expectation of
-                                                    building users by addressing
-                                                    their identity , physical
-                                                    and socialogical context
+                                                    Our mission is to curate
+                                                    experiences and moderate
+                                                    encounters/ engagement with
+                                                    God and other followers of
+                                                    Jesus, the Christ while on
+                                                    earth
                                                   </p>
                                                 </div>
                                               </div>
@@ -373,23 +300,11 @@ const Shade = () => {
                                                       color: "black",
                                                     }}
                                                   >
-                                                    We aim to provide a
-                                                    responsive, imaginative and
-                                                    professional architecture
-                                                    service tailored to the
-                                                    aspiration of each of our
-                                                    client and to deliver
-                                                    quality results regardless
-                                                    of commission, size or type.
-                                                    <br></br> We seek to develop
-                                                    a sustainable and cost
-                                                    efficient design, which
-                                                    speaks the language of
-                                                    global architecture and
-                                                    fulfils the expectation of
-                                                    building users by addressing
-                                                    their identity , physical
-                                                    and socialogical context
+                                                    To become the address for
+                                                    the LORD on earth,
+                                                    accessible to all
+                                                    communities where people
+                                                    live.
                                                   </p>
                                                 </div>
                                               </div>
@@ -438,7 +353,7 @@ const Shade = () => {
                                                     fontWeight: "900",
                                                   }}
                                                 >
-                                                  Our MInistries
+                                                  Objectives
                                                 </h4>
 
                                                 <div class="edublink-icon-box-details">
@@ -449,36 +364,15 @@ const Shade = () => {
                                                       color: "black",
                                                     }}
                                                   >
-                                                    Our MultiDmiensional
-                                                    engagement includes the
-                                                    following:
-                                                  </p>
-                                                  <p
-                                                    style={{
-                                                      fontSize: "18px",
-                                                      textAlign: "justify",
-                                                    }}
-                                                  >
-                                                    <strong>
-                                                      The finger Print
-                                                      Commission
-                                                    </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
-                                                  </p>
-                                                  <p
-                                                    style={{
-                                                      fontSize: "18px",
-                                                      textAlign: "justify",
-                                                    }}
-                                                  >
-                                                    <strong>
-                                                      Lebana Academy
-                                                    </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
+                                                    We are looking forward to a
+                                                    time on earth when no one is
+                                                    a stranger, who truly
+                                                    desires a relationship with
+                                                    the Most High God and the
+                                                    knowledge of His ways. We
+                                                    hope to accomplish this
+                                                    through real-life and
+                                                    digital tools and platforms.
                                                   </p>
                                                 </div>
                                               </div>
@@ -519,6 +413,19 @@ const Shade = () => {
                                                   }}
                                                 ></h4>
                                                 <div class="edublink-icon-box-details">
+                                                  <h4
+                                                    class="edublink-icon-box-title"
+                                                    style={{
+                                                      textTransform:
+                                                        "uppercase",
+                                                      color: "#00a5f5",
+                                                      textAlign: "justify",
+                                                      fontWeight: "900",
+                                                    }}
+                                                  >
+                                                    Strategy
+                                                  </h4>
+
                                                   <p
                                                     style={{
                                                       fontSize: "18px",
@@ -526,41 +433,87 @@ const Shade = () => {
                                                       color: "black",
                                                     }}
                                                   >
-                                                    <strong>
-                                                      The finger Print
-                                                      Commission
-                                                    </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
+                                                    We know the world is
+                                                    changing and what used to be
+                                                    tested and trusted are no
+                                                    longer adequate because of
+                                                    changing cultures.
+                                                    Therefore, we are resolved
+                                                    to tell compelling stories
+                                                    until everyone is blessed
+                                                    with a clear and relatable
+                                                    understanding of the person
+                                                    of God.
                                                   </p>
+                                                </div>
+                                              </div>
+                                            </div>{" "}
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </section>
+
+                                <section
+                                  class="zin elementor-section elementor-inner-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                  data-id="faace8e"
+                                  data-element_type="section"
+                                >
+                                  <div class="elementor-container elementor-column-gap-no">
+                                    <div
+                                      class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-041d259"
+                                      data-id="041d259"
+                                      data-element_type="column"
+                                    >
+                                      <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div
+                                          class="elementor-element elementor-element-e68ab37  elementor-widget elementor-widget-edublink-icon-box"
+                                          data-id="e68ab37"
+                                          data-element_type="widget"
+                                          data-settings='{"_animation":"edublink--slide-up","_animation_delay":100}'
+                                          data-widget_type="edublink-icon-box.default"
+                                        >
+                                          <div>
+                                            <div class="edublink-icon-box-wrapper edublink-icon-box-icon edublink-icon-box-icon-position-top">
+                                              {/*}  <div class="edublink-icon-box-icon edublink-icon-box-enable">
+                                            <i
+                                              aria-hidden="true"
+                                              class="fas fa-binoculars"
+                                            ></i>
+                                          </div>*/}
+                                              <div class="edublink-icon-box-content">
+                                                <h4
+                                                  class="edublink-icon-box-title"
+                                                  style={{
+                                                    textTransform: "uppercase",
+                                                    color: "#00a5f5",
+                                                    textAlign: "justify",
+                                                    fontWeight: "900",
+                                                  }}
+                                                ></h4>
+                                                <div class="edublink-icon-box-details">
                                                   <p
                                                     style={{
                                                       fontSize: "18px",
                                                       textAlign: "justify",
+                                                      color: "black",
                                                     }}
                                                   >
-                                                    <strong>
-                                                      The finger Print
-                                                      Commission
-                                                    </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
-                                                  </p>
-                                                  <p
-                                                    style={{
-                                                      fontSize: "18px",
-                                                      textAlign: "justify",
-                                                    }}
-                                                  >
-                                                    <strong>
-                                                      The finger Print
-                                                      Commission
-                                                    </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
+                                                    Our buildings are merely
+                                                    facilities for our
+                                                    activities. Our people are
+                                                    the real Shade, built by our
+                                                    stewardship and
+                                                    discipleship, representing
+                                                    the LORD in their spheres of
+                                                    influence. Our network of
+                                                    studios are platforms for
+                                                    sharing the messages of the
+                                                    kingdom of God with our
+                                                    world, contributed into by
+                                                    everyone who is a part of
+                                                    the communities therein.
                                                   </p>
                                                 </div>
                                               </div>
@@ -575,6 +528,7 @@ const Shade = () => {
                             </div>
                           </div>
                         </section>
+
                         {/*} <section
                           class="elementor-section elementor-top-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                           data-element_type="section"

@@ -34,7 +34,7 @@ const Finger = () => {
               data-settings='{"background_background":"classic","shape_divider_bottom":"tilt"}'
             >
               <h3 class="entry-title" style={{ textAlign: "center" }}>
-                About Us
+                Finger print commission
               </h3>
               <div class="elementor-container elementor-column-gap-no">
                 <div
@@ -84,19 +84,19 @@ const Finger = () => {
                                           color: "black",
                                         }}
                                       >
-                                        We aim to provide a responsive,
-                                        imaginative and professional
-                                        architecture service tailored to the
-                                        aspiration of each of our client and to
-                                        deliver quality results regardless of
-                                        commission, size or type.
-                                        <br></br> We seek to develop a
-                                        sustainable and cost efficient design,
-                                        which speaks the language of global
-                                        architecture and fulfils the expectation
-                                        of building users by addressing their
-                                        identity , physical and socialogical
-                                        context
+                                        We are a special-purpose vehicle for
+                                        engaging the leadership of the Church of
+                                        Christ towards reconnecting God’s people
+                                        back to God’s original purpose and
+                                        pattern; because therein is her
+                                        salvation assured in these trying times.
+                                        <br></br>
+                                        <br></br>
+                                        We are a community of God’s people,
+                                        whose destination and hope is GOD,
+                                        proclaiming God’s word as the standard
+                                        for life and exemplifying His way of
+                                        truth to life.
                                       </p>
                                     </div>
                                   </div>
@@ -138,19 +138,14 @@ const Finger = () => {
                                           color: "black",
                                         }}
                                       >
-                                        We aim to provide a responsive,
-                                        imaginative and professional
-                                        architecture service tailored to the
-                                        aspiration of each of our client and to
-                                        deliver quality results regardless of
-                                        commission, size or type.
-                                        <br></br> We seek to develop a
-                                        sustainable and cost efficient design,
-                                        which speaks the language of global
-                                        architecture and fulfils the expectation
-                                        of building users by addressing their
-                                        identity , physical and socialogical
-                                        context
+                                        Our objective is to restore the mountain
+                                        of the LORD’s house to a place where God
+                                        can be found; one where He introduces
+                                        Himself to those who would come to Him.
+                                        Our goal is to work with the Church and
+                                        Christian leadership to raise the
+                                        company of Perfected Shepherds and
+                                        Innovative Princes.
                                       </p>
                                     </div>
                                   </div>
@@ -307,23 +302,11 @@ const Finger = () => {
                                                       color: "black",
                                                     }}
                                                   >
-                                                    We aim to provide a
-                                                    responsive, imaginative and
-                                                    professional architecture
-                                                    service tailored to the
-                                                    aspiration of each of our
-                                                    client and to deliver
-                                                    quality results regardless
-                                                    of commission, size or type.
-                                                    <br></br> We seek to develop
-                                                    a sustainable and cost
-                                                    efficient design, which
-                                                    speaks the language of
-                                                    global architecture and
-                                                    fulfils the expectation of
-                                                    building users by addressing
-                                                    their identity , physical
-                                                    and socialogical context
+                                                    Our mission is to return the
+                                                    Church to Christ, and Christ
+                                                    to the Church, through
+                                                    restorative and redemptive
+                                                    processes
                                                   </p>
                                                 </div>
                                               </div>
@@ -373,23 +356,10 @@ const Finger = () => {
                                                       color: "black",
                                                     }}
                                                   >
-                                                    We aim to provide a
-                                                    responsive, imaginative and
-                                                    professional architecture
-                                                    service tailored to the
-                                                    aspiration of each of our
-                                                    client and to deliver
-                                                    quality results regardless
-                                                    of commission, size or type.
-                                                    <br></br> We seek to develop
-                                                    a sustainable and cost
-                                                    efficient design, which
-                                                    speaks the language of
-                                                    global architecture and
-                                                    fulfils the expectation of
-                                                    building users by addressing
-                                                    their identity , physical
-                                                    and socialogical context
+                                                    To become the global go-to
+                                                    God’s kingdom vehicle for
+                                                    institutional restoration,
+                                                    growth, and development
                                                   </p>
                                                 </div>
                                               </div>
@@ -438,7 +408,7 @@ const Finger = () => {
                                                     fontWeight: "900",
                                                   }}
                                                 >
-                                                  Our MInistries
+                                                  Emphasis
                                                 </h4>
 
                                                 <div class="edublink-icon-box-details">
@@ -449,36 +419,14 @@ const Finger = () => {
                                                       color: "black",
                                                     }}
                                                   >
-                                                    Our MultiDmiensional
-                                                    engagement includes the
-                                                    following:
-                                                  </p>
-                                                  <p
-                                                    style={{
-                                                      fontSize: "18px",
-                                                      textAlign: "justify",
-                                                    }}
-                                                  >
-                                                    <strong>
-                                                      The finger Print
-                                                      Commission
-                                                    </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
-                                                  </p>
-                                                  <p
-                                                    style={{
-                                                      fontSize: "18px",
-                                                      textAlign: "justify",
-                                                    }}
-                                                  >
-                                                    <strong>
-                                                      Lebana Academy
-                                                    </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
+                                                    Our emphasis is on the
+                                                    return to righteousness as
+                                                    the only sustainable pathway
+                                                    to peace and joy; and to
+                                                    return God’s justice to all
+                                                    sphere of human engagement,
+                                                    especially within the
+                                                    communities of God’s people.
                                                   </p>
                                                 </div>
                                               </div>
@@ -519,6 +467,19 @@ const Finger = () => {
                                                   }}
                                                 ></h4>
                                                 <div class="edublink-icon-box-details">
+                                                  <h4
+                                                    class="edublink-icon-box-title"
+                                                    style={{
+                                                      textTransform:
+                                                        "uppercase",
+                                                      color: "#00a5f5",
+                                                      textAlign: "justify",
+                                                      fontWeight: "900",
+                                                    }}
+                                                  >
+                                                    Focus
+                                                  </h4>
+
                                                   <p
                                                     style={{
                                                       fontSize: "18px",
@@ -526,41 +487,80 @@ const Finger = () => {
                                                       color: "black",
                                                     }}
                                                   >
-                                                    <strong>
-                                                      The finger Print
-                                                      Commission
-                                                    </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
+                                                    Our focus is on faithful and
+                                                    true stewardship as the
+                                                    vehicle for delivering
+                                                    effective discipleship in
+                                                    churches and in the nations.
+                                                    We want to see heaven-bound
+                                                    followers of Jesus, the
+                                                    Christ, thriving in families
+                                                    and communities, as designed
+                                                    by God, taking
+                                                    responsibilities for the
+                                                    enforcement of the kingdom
+                                                    of God on earth.
                                                   </p>
+                                                </div>
+                                              </div>
+                                            </div>{" "}
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </section>
+
+                                <section
+                                  class="zin elementor-section elementor-inner-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                  data-id="faace8e"
+                                  data-element_type="section"
+                                >
+                                  <div class="elementor-container elementor-column-gap-no">
+                                    <div
+                                      class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-041d259"
+                                      data-id="041d259"
+                                      data-element_type="column"
+                                    >
+                                      <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div
+                                          class="elementor-element elementor-element-e68ab37  elementor-widget elementor-widget-edublink-icon-box"
+                                          data-id="e68ab37"
+                                          data-element_type="widget"
+                                          data-settings='{"_animation":"edublink--slide-up","_animation_delay":100}'
+                                          data-widget_type="edublink-icon-box.default"
+                                        >
+                                          <div>
+                                            <div class="edublink-icon-box-wrapper edublink-icon-box-icon edublink-icon-box-icon-position-top">
+                                              {/*}  <div class="edublink-icon-box-icon edublink-icon-box-enable">
+                                            <i
+                                              aria-hidden="true"
+                                              class="fas fa-binoculars"
+                                            ></i>
+                                          </div>*/}
+                                              <div class="edublink-icon-box-content">
+                                                <h4
+                                                  class="edublink-icon-box-title"
+                                                  style={{
+                                                    textTransform: "uppercase",
+                                                    color: "#00a5f5",
+                                                    textAlign: "justify",
+                                                    fontWeight: "900",
+                                                  }}
+                                                ></h4>
+                                                <div class="edublink-icon-box-details">
                                                   <p
                                                     style={{
                                                       fontSize: "18px",
                                                       textAlign: "justify",
+                                                      color: "black",
                                                     }}
                                                   >
-                                                    <strong>
-                                                      The finger Print
-                                                      Commission
-                                                    </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
-                                                  </p>
-                                                  <p
-                                                    style={{
-                                                      fontSize: "18px",
-                                                      textAlign: "justify",
-                                                    }}
-                                                  >
-                                                    <strong>
-                                                      The finger Print
-                                                      Commission
-                                                    </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
+                                                    Our process is thorough and
+                                                    comprehensive, cutting
+                                                    across all spheres of life,
+                                                    family, vocation, community
+                                                    and society.
                                                   </p>
                                                 </div>
                                               </div>
@@ -575,6 +575,7 @@ const Finger = () => {
                             </div>
                           </div>
                         </section>
+
                         {/*} <section
                           class="elementor-section elementor-top-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                           data-element_type="section"

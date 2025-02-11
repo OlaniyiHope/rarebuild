@@ -34,7 +34,7 @@ const Lebana = () => {
               data-settings='{"background_background":"classic","shape_divider_bottom":"tilt"}'
             >
               <h3 class="entry-title" style={{ textAlign: "center" }}>
-                About Us
+                Lebana Academy
               </h3>
               <div class="elementor-container elementor-column-gap-no">
                 <div
@@ -51,62 +51,7 @@ const Lebana = () => {
                     >
                       <div class="elementor-container elementor-column-gap-no">
                         <div
-                          class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-919723e"
-                          data-id="919723e"
-                          data-element_type="column"
-                        >
-                          <div class="elementor-widget-wrap elementor-element-populated">
-                            <div
-                              class="elementor-element elementor-element-5b44946  elementor-widget elementor-widget-edublink-icon-box"
-                              data-id="5b44946"
-                              data-element_type="widget"
-                              data-settings='{"_animation":"edublink--slide-up","_animation_delay":50}'
-                              data-widget_type="edublink-icon-box.default"
-                            >
-                              <div>
-                                <div class="edublink-icon-box-wrapper edublink-icon-box-icon edublink-icon-box-icon-position-top">
-                                  {/*}   <div class="edublink-icon-box-icon edublink-icon-box-enable">
-                <i
-                  aria-hidden="true"
-                  class="fas fa-bullseye"
-                ></i>
-              </div>*/}
-                                  <div class="edublink-icon-box-content">
-                                    {/*}  <h4 class="edublink-icon-box-title">
-                  Our Mission
-                </h4>*/}
-
-                                    <div class="edublink-icon-box-details">
-                                      <p
-                                        style={{
-                                          fontSize: "18px",
-                                          textAlign: "justify",
-                                          color: "black",
-                                        }}
-                                      >
-                                        We aim to provide a responsive,
-                                        imaginative and professional
-                                        architecture service tailored to the
-                                        aspiration of each of our client and to
-                                        deliver quality results regardless of
-                                        commission, size or type.
-                                        <br></br> We seek to develop a
-                                        sustainable and cost efficient design,
-                                        which speaks the language of global
-                                        architecture and fulfils the expectation
-                                        of building users by addressing their
-                                        identity , physical and socialogical
-                                        context
-                                      </p>
-                                    </div>
-                                  </div>
-                                </div>{" "}
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-041d259"
+                          class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-041d259"
                           data-id="041d259"
                           data-element_type="column"
                         >
@@ -138,19 +83,54 @@ const Lebana = () => {
                                           color: "black",
                                         }}
                                       >
-                                        We aim to provide a responsive,
-                                        imaginative and professional
-                                        architecture service tailored to the
-                                        aspiration of each of our client and to
-                                        deliver quality results regardless of
-                                        commission, size or type.
-                                        <br></br> We seek to develop a
-                                        sustainable and cost efficient design,
-                                        which speaks the language of global
-                                        architecture and fulfils the expectation
-                                        of building users by addressing their
-                                        identity , physical and socialogical
-                                        context
+                                        At Lebana, we educate the heart and
+                                        minds of learners in a cultured,
+                                        creative and vibrant community that
+                                        prizes godliness, purposeful living,
+                                        responsibility, value, and fruitfulness
+                                        until the full image of Christ is formed
+                                        in them
+                                      </p>
+                                      <p
+                                        style={{
+                                          fontSize: "18px",
+                                          textAlign: "justify",
+                                          color: "black",
+                                        }}
+                                      >
+                                        1. We create joyful, diverse, and
+                                        value-oriented communities, which
+                                        provides the atmosphere that supports
+                                        sustainable growth and development,
+                                        beginning from the family;
+                                      </p>
+                                      <p
+                                        style={{
+                                          fontSize: "18px",
+                                          textAlign: "justify",
+                                          color: "black",
+                                        }}
+                                      >
+                                        2. We respect learners as capable
+                                        individuals, fostering their development
+                                        [and growth, in the case of younger
+                                        ones] toward collaborative independence,
+                                        social responsibility and fruitful
+                                        living; and
+                                      </p>
+                                      <p
+                                        style={{
+                                          fontSize: "18px",
+                                          textAlign: "justify",
+                                          color: "black",
+                                        }}
+                                      >
+                                        3. We respect learners as capable We
+                                        inspire people to live both passionately
+                                        and compassionately in local and global
+                                        communities; understanding and providing
+                                        their contribution to life and living,
+                                        within the broader scale of things
                                       </p>
                                     </div>
                                   </div>
@@ -167,6 +147,7 @@ const Lebana = () => {
             </section>
           </div>
         </div>
+
         <div
           class="edublink-page-title-area edublink-breadcrumb-style-1 edublink-breadcrumb-has-bg"
           style={{
@@ -307,23 +288,15 @@ const Lebana = () => {
                                                       color: "black",
                                                     }}
                                                   >
-                                                    We aim to provide a
-                                                    responsive, imaginative and
-                                                    professional architecture
-                                                    service tailored to the
-                                                    aspiration of each of our
-                                                    client and to deliver
-                                                    quality results regardless
-                                                    of commission, size or type.
-                                                    <br></br> We seek to develop
-                                                    a sustainable and cost
-                                                    efficient design, which
-                                                    speaks the language of
-                                                    global architecture and
-                                                    fulfils the expectation of
-                                                    building users by addressing
-                                                    their identity , physical
-                                                    and socialogical context
+                                                    Our mission is to restore
+                                                    purity of spirit, clarity of
+                                                    purpose and quality of life
+                                                    to humanity through lifetime
+                                                    learning and processes that
+                                                    raise, develop, restore, and
+                                                    deploy value creators and
+                                                    managers, for GOD,
+                                                    communities and nations.
                                                   </p>
                                                 </div>
                                               </div>
@@ -373,23 +346,10 @@ const Lebana = () => {
                                                       color: "black",
                                                     }}
                                                   >
-                                                    We aim to provide a
-                                                    responsive, imaginative and
-                                                    professional architecture
-                                                    service tailored to the
-                                                    aspiration of each of our
-                                                    client and to deliver
-                                                    quality results regardless
-                                                    of commission, size or type.
-                                                    <br></br> We seek to develop
-                                                    a sustainable and cost
-                                                    efficient design, which
-                                                    speaks the language of
-                                                    global architecture and
-                                                    fulfils the expectation of
-                                                    building users by addressing
-                                                    their identity , physical
-                                                    and socialogical context
+                                                    To become a global life-
+                                                    defining and life-developing
+                                                    institution of first choice
+                                                    for all people.
                                                   </p>
                                                 </div>
                                               </div>
@@ -438,7 +398,7 @@ const Lebana = () => {
                                                     fontWeight: "900",
                                                   }}
                                                 >
-                                                  Our MInistries
+                                                  Quality
                                                 </h4>
 
                                                 <div class="edublink-icon-box-details">
@@ -449,36 +409,12 @@ const Lebana = () => {
                                                       color: "black",
                                                     }}
                                                   >
-                                                    Our MultiDmiensional
-                                                    engagement includes the
-                                                    following:
-                                                  </p>
-                                                  <p
-                                                    style={{
-                                                      fontSize: "18px",
-                                                      textAlign: "justify",
-                                                    }}
-                                                  >
-                                                    <strong>
-                                                      The finger Print
-                                                      Commission
-                                                    </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
-                                                  </p>
-                                                  <p
-                                                    style={{
-                                                      fontSize: "18px",
-                                                      textAlign: "justify",
-                                                    }}
-                                                  >
-                                                    <strong>
-                                                      Lebana Academy
-                                                    </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
+                                                    Participants are both
+                                                    teachers and learners;
+                                                    applying what we teach and
+                                                    learn; emphasizing on
+                                                    multi-adaptability of the
+                                                    knowledge provided.
                                                   </p>
                                                 </div>
                                               </div>
@@ -519,6 +455,19 @@ const Lebana = () => {
                                                   }}
                                                 ></h4>
                                                 <div class="edublink-icon-box-details">
+                                                  <h4
+                                                    class="edublink-icon-box-title"
+                                                    style={{
+                                                      textTransform:
+                                                        "uppercase",
+                                                      color: "#00a5f5",
+                                                      textAlign: "justify",
+                                                      fontWeight: "900",
+                                                    }}
+                                                  >
+                                                    Purpose
+                                                  </h4>
+
                                                   <p
                                                     style={{
                                                       fontSize: "18px",
@@ -526,41 +475,119 @@ const Lebana = () => {
                                                       color: "black",
                                                     }}
                                                   >
-                                                    <strong>
-                                                      The finger Print
-                                                      Commission
-                                                    </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
+                                                    To provide quality and
+                                                    inspired education for
+                                                    creative living for all
+                                                    people; making knowledge,
+                                                    wisdom, and understanding
+                                                    for life affordable
+                                                    regardless of class, status,
+                                                    culture, leaning and
+                                                    persuasion. No one should be
+                                                    lacking what is required to
+                                                    become God’s desire in life.
                                                   </p>
+                                                </div>
+                                              </div>
+                                            </div>{" "}
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </section>
+
+                                <section
+                                  class="zin elementor-section elementor-inner-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                  data-id="faace8e"
+                                  data-element_type="section"
+                                >
+                                  <div class="elementor-container elementor-column-gap-no">
+                                    <div
+                                      class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-041d259"
+                                      data-id="041d259"
+                                      data-element_type="column"
+                                    >
+                                      <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div
+                                          class="elementor-element elementor-element-e68ab37  elementor-widget elementor-widget-edublink-icon-box"
+                                          data-id="e68ab37"
+                                          data-element_type="widget"
+                                          data-settings='{"_animation":"edublink--slide-up","_animation_delay":100}'
+                                          data-widget_type="edublink-icon-box.default"
+                                        >
+                                          <div>
+                                            <div class="edublink-icon-box-wrapper edublink-icon-box-icon edublink-icon-box-icon-position-top">
+                                              {/*}  <div class="edublink-icon-box-icon edublink-icon-box-enable">
+                                            <i
+                                              aria-hidden="true"
+                                              class="fas fa-binoculars"
+                                            ></i>
+                                          </div>*/}
+                                              <div class="edublink-icon-box-content">
+                                                <h4
+                                                  class="edublink-icon-box-title"
+                                                  style={{
+                                                    textTransform: "uppercase",
+                                                    color: "#00a5f5",
+                                                    textAlign: "justify",
+                                                    fontWeight: "900",
+                                                  }}
+                                                ></h4>
+                                                <div class="edublink-icon-box-details">
                                                   <p
                                                     style={{
                                                       fontSize: "18px",
                                                       textAlign: "justify",
+                                                      color: "black",
                                                     }}
                                                   >
+                                                    Founded in 2013, our
                                                     <strong>
-                                                      The finger Print
-                                                      Commission
+                                                      Foundational (life and
+                                                      family), Restorative,
+                                                      Discipleship, and
+                                                      Redemptive Leadership
+                                                      Programs
                                                     </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
-                                                  </p>
-                                                  <p
-                                                    style={{
-                                                      fontSize: "18px",
-                                                      textAlign: "justify",
-                                                    }}
-                                                  >
-                                                    <strong>
-                                                      The finger Print
-                                                      Commission
-                                                    </strong>{" "}
-                                                    - Our-in-to-reach to the
-                                                    church of God in Christ
-                                                    Jesus
+                                                    serves young people and
+                                                    adults with socio-cultural,
+                                                    economic, health, and
+                                                    spiritual contents through
+                                                    practical curricula,
+                                                    designed to motivate
+                                                    learners of varied
+                                                    backgrounds, interests,
+                                                    experiences and talents to
+                                                    live fruitful lives and
+                                                    become resourceful, despite
+                                                    challenging environments
+                                                    that are plagued by
+                                                    present-day and future
+                                                    realities, which is common
+                                                    to all, whether free or
+                                                    bound.
+                                                    <br></br>
+                                                    <br></br> We have asked God
+                                                    for answers to the
+                                                    challenges of the human
+                                                    condition; we are proud to
+                                                    affirm that we have answers
+                                                    and help from God, for
+                                                    everyone, in their time of
+                                                    need.
+                                                    <br></br>
+                                                    <br></br> We operates two
+                                                    types of schools namely:
+                                                    School for Life and School
+                                                    for Futures. The former
+                                                    offers all our specialized
+                                                    program, while the latter
+                                                    delivers a creative learning
+                                                    through regular school
+                                                    framework, from kindergarten
+                                                    to secondary (high) school
+                                                    levels.
                                                   </p>
                                                 </div>
                                               </div>
@@ -575,6 +602,7 @@ const Lebana = () => {
                             </div>
                           </div>
                         </section>
+
                         {/*} <section
                           class="elementor-section elementor-top-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                           data-element_type="section"
