@@ -18,6 +18,7 @@ const Footers = () => {
             <section
               class="elementor-section elementor-top-section elementor-element elementor-element-46b3dc5 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
               data-id="46b3dc5"
+              style={{ backgroundColor: "#e9ecec" }}
               data-element_type="section"
               data-settings='{"background_background":"classic"}'
             >

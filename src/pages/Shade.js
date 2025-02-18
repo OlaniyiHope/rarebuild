@@ -44,7 +44,7 @@ const Shade = () => {
                 >
                   <div class="elementor-widget-wrap elementor-element-populated">
                     <section
-                      class="zin elementor-section elementor-inner-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                      class="zin elementor-section elementor-inner- s   ection elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                       data-id="faace8e"
                       data-element_type="section"
                       style={{ marginBottom: "20px" }}
